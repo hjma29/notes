@@ -1,0 +1,298 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Systems/Members/$entity",
+    "@odata.id": "/redfish/v1/Systems/1/",
+    "@odata.type": "#ComputerSystem.1.0.0.ComputerSystem",
+    "Actions": {
+        "#ComputerSystem.Reset": {
+            "ResetType@Redfish.AllowableValues": [
+                "On",
+                "ForceOff",
+                "ForceRestart",
+                "Nmi",
+                "PushPowerButton"
+            ],
+            "target": "/redfish/v1/Systems/1/Actions/ComputerSystem.Reset/"
+        }
+    },
+    "AssetTag": "",
+    "AvailableActions": [
+        {
+            "Action": "Reset",
+            "Capabilities": [
+                {
+                    "AllowableValues": [
+                        "On",
+                        "ForceOff",
+                        "ForceRestart",
+                        "Nmi",
+                        "PushPowerButton"
+                    ],
+                    "PropertyName": "ResetType"
+                }
+            ]
+        }
+    ],
+    "Bios": {
+        "Current": {
+            "VersionString": "P89 v1.40 (05/06/2015)"
+        }
+    },
+    "BiosVersion": "P89 v1.40 (05/06/2015)",
+    "Boot": {
+        "BootSourceOverrideEnabled": "Disabled",
+        "BootSourceOverrideSupported": [
+            "None",
+            "Cd",
+            "Hdd",
+            "Usb",
+            "Utilities",
+            "Diags",
+            "BiosSetup",
+            "Pxe",
+            "UefiShell",
+            "UefiTarget"
+        ],
+        "BootSourceOverrideTarget": "None",
+        "UefiTargetBootSourceOverride": "None",
+        "UefiTargetBootSourceOverrideSupported": [
+            "NIC.LOM.1.1.IPv4",
+            "NIC.LOM.1.1.IPv6",
+            "NIC.FlexLOM.1.1.IPv4",
+            "NIC.FlexLOM.1.1.IPv6",
+            "Generic.USB.1.1",
+            "HD.Emb.1.2"
+        ]
+    },
+    "Description": "Computer System View",
+    "HostCorrelation": {
+        "HostMACAddress": [
+            "3c:a8:2a:21:db:ac",
+            "3c:a8:2a:21:db:ad",
+            "3c:a8:2a:21:db:ae",
+            "3c:a8:2a:21:db:af",
+            "ec:b1:d7:7e:75:20",
+            "ec:b1:d7:7e:75:24"
+        ],
+        "HostName": "DCA-MGMT-02.hpdia.local",
+        "IPAddress": [
+            "",
+            "",
+            "",
+            "",
+            "10.16.160.35",
+            ""
+        ]
+    },
+    "HostName": "DCA-MGMT-02.hpdia.local",
+    "Id": "1",
+    "IndicatorLED": "Lit",
+    "LogServices": {
+        "@odata.id": "/rest/v1/Systems/1/LogServices"
+    },
+    "Manufacturer": "HP",
+    "Memory": {
+        "Status": {
+            "HealthRollUp": "OK"
+        },
+        "TotalSystemMemoryGB": 128
+    },
+    "MemorySummary": {
+        "Status": {
+            "HealthRollUp": "OK"
+        },
+        "TotalSystemMemoryGiB": 128
+    },
+    "Model": "ProLiant DL380 Gen9",
+    "Name": "Computer System",
+    "Oem": {
+        "Hp": {
+            "@odata.type": "#HpComputerSystemExt.1.1.0.HpComputerSystemExt",
+            "Actions": {
+                "#HpComputerSystemExt.1.0.0.PowerButton": {
+                    "PushType@Redfish.AllowableValues": [
+                        "Press",
+                        "PressAndHold"
+                    ],
+                    "target": "/redfish/v1/Systems/1/Actions/Oem/Hp/ComputerSystemExt.PowerButton/"
+                },
+                "#HpComputerSystemExt.1.0.0.ServerSigRecompute": null,
+                "#HpComputerSystemExt.1.0.0.SystemReset": {
+                    "ResetType@Redfish.AllowableValues": [
+                        "ColdBoot"
+                    ],
+                    "target": "/redfish/v1/Systems/1/Actions/Oem/Hp/ComputerSystemExt.SystemReset/"
+                }
+            },
+            "AvailableActions": [
+                {
+                    "Action": "PowerButton",
+                    "Capabilities": [
+                        {
+                            "AllowableValues": [
+                                "Press",
+                                "PressAndHold"
+                            ],
+                            "PropertyName": "PushType"
+                        },
+                        {
+                            "AllowableValues": [
+                                "/Oem/Hp"
+                            ],
+                            "PropertyName": "Target"
+                        }
+                    ]
+                },
+                {
+                    "Action": "ServerSigRecompute",
+                    "Capabilities": [
+                        {
+                            "AllowableValues": [
+                                "/Oem/Hp"
+                            ],
+                            "PropertyName": "Target"
+                        }
+                    ]
+                },
+                {
+                    "Action": "SystemReset",
+                    "Capabilities": [
+                        {
+                            "AllowableValues": [
+                                "ColdBoot"
+                            ],
+                            "PropertyName": "ResetType"
+                        },
+                        {
+                            "AllowableValues": [
+                                "/Oem/Hp"
+                            ],
+                            "PropertyName": "Target"
+                        }
+                    ]
+                }
+            ],
+            "Battery": [
+                {
+                    "Condition": "Ok",
+                    "ErrorCode": 0,
+                    "FirmwareVersion": "1.1",
+                    "Index": 1,
+                    "MaxCapWatts": 96,
+                    "Model": "727258-B21",
+                    "Present": "Yes",
+                    "ProductName": "HP Smart Storage Batt 96",
+                    "SerialNumber": "6EZBN0CWY8S1AW",
+                    "Spare": "815983-001"
+                }
+            ],
+            "Bios": {
+                "Backup": {
+                    "Date": "05/06/2015",
+                    "Family": "P89",
+                    "VersionString": "P89 v1.40 (05/06/2015)"
+                },
+                "Current": {
+                    "Date": "05/06/2015",
+                    "Family": "P89",
+                    "VersionString": "P89 v1.40 (05/06/2015)"
+                },
+                "UefiClass": 2
+            },
+            "DeviceDiscoveryComplete": {
+                "AMSDeviceDiscovery": "Complete",
+                "DeviceDiscovery": "vMainDeviceDiscoveryComplete",
+                "SmartArrayDiscovery": "Complete"
+            },
+            "IntelligentProvisioningIndex": 3,
+            "IntelligentProvisioningLocation": "System Board",
+            "IntelligentProvisioningVersion": "2.20.219",
+            "PostState": "FinishedPost",
+            "PowerAllocationLimit": 1600,
+            "PowerAutoOn": "Restore",
+            "PowerOnDelay": "Minimum",
+            "PowerRegulatorMode": "Dynamic",
+            "PowerRegulatorModesSupported": [
+                "OSControl",
+                "Dynamic",
+                "Max",
+                "Min"
+            ],
+            "TrustedModules": [
+                {
+                    "Status": "NotPresent"
+                }
+            ],
+            "Type": "HpComputerSystemExt.1.1.0",
+            "VirtualProfile": "Inactive",
+            "links": {
+                "BIOS": {
+                    "href": "/rest/v1/systems/1/bios"
+                },
+                "FirmwareInventory": {
+                    "href": "/rest/v1/Systems/1/FirmwareInventory"
+                },
+                "Memory": {
+                    "href": "/rest/v1/Systems/1/Memory"
+                },
+                "NetworkAdapters": {
+                    "href": "/rest/v1/Systems/1/NetworkAdapters"
+                },
+                "PCIDevices": {
+                    "href": "/rest/v1/Systems/1/PCIDevices"
+                },
+                "PCISlots": {
+                    "href": "/rest/v1/Systems/1/PCISlots"
+                },
+                "SecureBoot": {
+                    "href": "/rest/v1/Systems/1/SecureBoot"
+                },
+                "SmartStorage": {
+                    "href": "/rest/v1/Systems/1/SmartStorage"
+                }
+            }
+        }
+    },
+    "Power": "On",
+    "PowerState": "On",
+    "ProcessorSummary": {
+        "Count": 2,
+        "Model": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
+        "Status": {
+            "HealthRollUp": "OK"
+        }
+    },
+    "Processors": {
+        "Count": 2,
+        "ProcessorFamily": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
+        "Status": {
+            "HealthRollUp": "OK"
+        }
+    },
+    "SKU": "767032-B21",
+    "SerialNumber": "MXQ52702Q0",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SystemType": "Physical",
+    "Type": "ComputerSystem.1.0.0",
+    "UUID": "30373637-3233-584D-5135-323730325130",
+    "links": {
+        "Chassis": [
+            {
+                "href": "/rest/v1/Chassis/1"
+            }
+        ],
+        "Logs": {
+            "href": "/rest/v1/Systems/1/LogServices"
+        },
+        "ManagedBy": [
+            {
+                "href": "/rest/v1/Managers/1"
+            }
+        ],
+        "self": {
+            "href": "/rest/v1/Systems/1"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "type": "OSDJob",
+    "typeOfJobType": "BP",
+    "jobResult": null,
+    "uriOfJobType": "/rest/os-deployment-build-plans/1110001",
+    "jobDeviceGroups": [],
+    "jobServerInfo": [
+        {
+            "deviceType": "os-deployment-servers",
+            "jobStatusOnServer": "UNKNOWN_STATUS",
+            "jobServerUri": "/rest/os-deployment-servers/50001",
+            "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+            "serverName": "DCA-RACK-02-C7000-03-Enclosure-3"
+        }
+    ],
+    "jobUserName": "Administrator",
+    "nameOfJobType": "ProLiant OS - RHEL 7.1 x64 Scripted Install",
+    "running": "true",
+    "jobProgress": [
+        {
+            "jobCompletedSteps": 19,
+            "jobTotalSteps": 25,
+            "currentStepName": "Monitoring Installation",
+            "jobServerUri": "/rest/os-deployment-servers/50001",
+            "elementJobStatus": "STATUS_OK"
+        }
+    ],
+    "status": "ok",
+    "description": "Run 'ProLiant OS - RHEL 7.1 x64 Scripted Install' build plan (id = 1110001) against 1 server(s)",
+    "name": "ProLiant OS - RHEL 7.1 x64 Scripted Install",
+    "state": "STATUS_ACTIVE",
+    "eTag": "2016-02-27T01:19:05.098Z",
+    "modified": "2016-02-27T01:19:05.098Z",
+    "created": "2016-02-27T00:59:09.000Z",
+    "category": "os-deployment-jobs",
+    "uri": "/rest/os-deployment-jobs/910001"
+}
