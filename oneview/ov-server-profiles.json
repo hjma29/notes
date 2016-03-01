@@ -1,0 +1,243 @@
+{
+    "type": "ServerProfileListV5",
+    "members": [
+        {
+            "type": "ServerProfileV5",
+            "uri": "/rest/server-profiles/1617016b-cdda-4dbb-a6de-bb80ff92b393",
+            "name": "demo-web1",
+            "description": "",
+            "serialNumber": "VCG5AQ700B",
+            "uuid": "1617016b-cdda-4dbb-a6de-bb80ff92b393",
+            "serverProfileTemplateUri": "/rest/server-profile-templates/5074153a-1f48-465b-bd2e-5f2adc604267",
+            "templateCompliance": "Compliant",
+            "serverHardwareUri": "/rest/server-hardware/30373237-3132-5355-4535-323653503446",
+            "serverHardwareTypeUri": "/rest/server-hardware-types/E2B56602-BE22-4CD3-86FD-A55D720E611A",
+            "enclosureGroupUri": "/rest/enclosure-groups/3480212b-09ce-4cb8-95d7-23e33733bd98",
+            "enclosureUri": "/rest/enclosures/092S1421PC06",
+            "enclosureBay": 3,
+            "affinity": "Bay",
+            "associatedServer": null,
+            "hideUnusedFlexNics": true,
+            "firmware": {
+                "firmwareInstallType": null,
+                "forceInstallFirmware": false,
+                "firmwareBaselineUri": null,
+                "manageFirmware": false
+            },
+            "macType": "Virtual",
+            "wwnType": "Virtual",
+            "serialNumberType": "Virtual",
+            "category": "server-profiles",
+            "created": "20160225T051020.528Z",
+            "modified": "20160225T052608.670Z",
+            "status": "OK",
+            "state": "Normal",
+            "inProgress": false,
+            "taskUri": "/rest/tasks/6302B4A0-9001-4707-824B-EB40C1207756",
+            "connections": [
+                {
+                    "id": 1,
+                    "name": "nic1",
+                    "functionType": "Ethernet",
+                    "deploymentStatus": "Deployed",
+                    "networkUri": "/rest/ethernet-networks/fb1f4430-f2ed-431f-8aa6-47bcbb8c440e",
+                    "portId": "Flb 1:1-a",
+                    "requestedVFs": "Auto",
+                    "allocatedVFs": null,
+                    "interconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                    "macType": "Virtual",
+                    "wwpnType": "Virtual",
+                    "mac": "46:18:9C:B0:00:0B",
+                    "wwnn": null,
+                    "wwpn": null,
+                    "requestedMbps": "2500",
+                    "allocatedMbps": 2500,
+                    "maximumMbps": 20000
+                }
+            ],
+            "bootMode": {
+                "mode": null,
+                "pxeBootPolicy": null,
+                "manageMode": false
+            },
+            "boot": {
+                "order": [],
+                "manageBoot": false
+            },
+            "bios": {
+                "manageBios": false,
+                "overriddenSettings": []
+            },
+            "localStorage": {
+                "controllers": []
+            },
+            "sanStorage": {
+                "volumeAttachments": [],
+                "manageSanStorage": false
+            },
+            "eTag": "1456377021033/6"
+        },
+        {
+            "type": "ServerProfileV5",
+            "uri": "/rest/server-profiles/28499d8c-dcde-4fe6-87a7-1bbda5eccfed",
+            "name": "hj-bay1-from-template",
+            "description": "",
+            "serialNumber": "VCG5AQ7000",
+            "uuid": "28499d8c-dcde-4fe6-87a7-1bbda5eccfed",
+            "serverProfileTemplateUri": "/rest/server-profile-templates/5074153a-1f48-465b-bd2e-5f2adc604267",
+            "templateCompliance": "Compliant",
+            "serverHardwareUri": "/rest/server-hardware/30373237-3132-5355-4535-323653503444",
+            "serverHardwareTypeUri": "/rest/server-hardware-types/E2B56602-BE22-4CD3-86FD-A55D720E611A",
+            "enclosureGroupUri": "/rest/enclosure-groups/3480212b-09ce-4cb8-95d7-23e33733bd98",
+            "enclosureUri": "/rest/enclosures/092S1421PC06",
+            "enclosureBay": 1,
+            "affinity": "Bay",
+            "associatedServer": null,
+            "hideUnusedFlexNics": true,
+            "firmware": {
+                "firmwareInstallType": null,
+                "forceInstallFirmware": false,
+                "firmwareBaselineUri": null,
+                "manageFirmware": false
+            },
+            "macType": "Virtual",
+            "wwnType": "Virtual",
+            "serialNumberType": "Virtual",
+            "category": "server-profiles",
+            "created": "20160218T170204.606Z",
+            "modified": "20160224T220426.897Z",
+            "status": "OK",
+            "state": "Normal",
+            "inProgress": false,
+            "taskUri": "/rest/tasks/EBCDA9B5-F291-4630-B164-38C471999BF5",
+            "connections": [
+                {
+                    "id": 1,
+                    "name": "nic1",
+                    "functionType": "Ethernet",
+                    "deploymentStatus": "Deployed",
+                    "networkUri": "/rest/ethernet-networks/fb1f4430-f2ed-431f-8aa6-47bcbb8c440e",
+                    "portId": "Flb 1:1-a",
+                    "requestedVFs": "Auto",
+                    "allocatedVFs": null,
+                    "interconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                    "macType": "Virtual",
+                    "wwpnType": "Virtual",
+                    "mac": "46:18:9C:B0:00:00",
+                    "wwnn": null,
+                    "wwpn": null,
+                    "requestedMbps": "2500",
+                    "allocatedMbps": 2500,
+                    "maximumMbps": 20000
+                }
+            ],
+            "bootMode": {
+                "mode": null,
+                "pxeBootPolicy": null,
+                "manageMode": false
+            },
+            "boot": {
+                "order": [],
+                "manageBoot": false
+            },
+            "bios": {
+                "manageBios": false,
+                "overriddenSettings": []
+            },
+            "localStorage": {
+                "controllers": []
+            },
+            "sanStorage": {
+                "volumeAttachments": [],
+                "manageSanStorage": false
+            },
+            "eTag": "1455814925662/15"
+        },
+        {
+            "type": "ServerProfileV5",
+            "uri": "/rest/server-profiles/bf5778c3-3739-49a5-9d7e-9e4aa98418bf",
+            "name": "hj-bay5-from-template",
+            "description": "",
+            "serialNumber": "VCG5AQ7002",
+            "uuid": "bf5778c3-3739-49a5-9d7e-9e4aa98418bf",
+            "serverProfileTemplateUri": "/rest/server-profile-templates/5074153a-1f48-465b-bd2e-5f2adc604267",
+            "templateCompliance": "Compliant",
+            "serverHardwareUri": "/rest/server-hardware/30373237-3132-5355-4535-323653503448",
+            "serverHardwareTypeUri": "/rest/server-hardware-types/E2B56602-BE22-4CD3-86FD-A55D720E611A",
+            "enclosureGroupUri": "/rest/enclosure-groups/3480212b-09ce-4cb8-95d7-23e33733bd98",
+            "enclosureUri": "/rest/enclosures/092S1421PC06",
+            "enclosureBay": 5,
+            "affinity": "Bay",
+            "associatedServer": null,
+            "hideUnusedFlexNics": true,
+            "firmware": {
+                "firmwareInstallType": null,
+                "forceInstallFirmware": false,
+                "firmwareBaselineUri": null,
+                "manageFirmware": false
+            },
+            "macType": "Virtual",
+            "wwnType": "Virtual",
+            "serialNumberType": "Virtual",
+            "category": "server-profiles",
+            "created": "20160218T223128.258Z",
+            "modified": "20160218T224737.421Z",
+            "status": "OK",
+            "state": "Normal",
+            "inProgress": false,
+            "taskUri": "/rest/tasks/1E02B5C3-0EF4-40B3-A4D6-7E240FCE47C4",
+            "connections": [
+                {
+                    "id": 1,
+                    "name": "nic1",
+                    "functionType": "Ethernet",
+                    "deploymentStatus": "Deployed",
+                    "networkUri": "/rest/ethernet-networks/fb1f4430-f2ed-431f-8aa6-47bcbb8c440e",
+                    "portId": "Flb 1:1-a",
+                    "requestedVFs": "Auto",
+                    "allocatedVFs": null,
+                    "interconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                    "macType": "Virtual",
+                    "wwpnType": "Virtual",
+                    "mac": "46:18:9C:B0:00:02",
+                    "wwnn": null,
+                    "wwpn": null,
+                    "requestedMbps": "2500",
+                    "allocatedMbps": 2500,
+                    "maximumMbps": 20000
+                }
+            ],
+            "bootMode": {
+                "mode": null,
+                "pxeBootPolicy": null,
+                "manageMode": false
+            },
+            "boot": {
+                "order": [],
+                "manageBoot": false
+            },
+            "bios": {
+                "manageBios": false,
+                "overriddenSettings": []
+            },
+            "localStorage": {
+                "controllers": []
+            },
+            "sanStorage": {
+                "volumeAttachments": [],
+                "manageSanStorage": false
+            },
+            "eTag": "1455834688679/6"
+        }
+    ],
+    "total": 3,
+    "count": 3,
+    "start": 0,
+    "prevPageUri": null,
+    "nextPageUri": null,
+    "category": "server-profiles",
+    "eTag": "20160301T175802.606Z",
+    "created": "20160301T175802.606Z",
+    "modified": "20160301T175802.606Z",
+    "uri": "/rest/server-profiles"
+}

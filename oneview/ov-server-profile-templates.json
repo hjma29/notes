@@ -1,0 +1,72 @@
+{
+    "type": "ServerProfileTemplateListV1",
+    "members": [
+        {
+            "type": "ServerProfileTemplateV1",
+            "uri": "/rest/server-profile-templates/5074153a-1f48-465b-bd2e-5f2adc604267",
+            "name": "hj-10g-2nics",
+            "description": "server template description",
+            "serverProfileDescription": "",
+            "serverHardwareTypeUri": "/rest/server-hardware-types/E2B56602-BE22-4CD3-86FD-A55D720E611A",
+            "enclosureGroupUri": "/rest/enclosure-groups/3480212b-09ce-4cb8-95d7-23e33733bd98",
+            "affinity": "Bay",
+            "hideUnusedFlexNics": true,
+            "macType": "Virtual",
+            "wwnType": "Virtual",
+            "serialNumberType": "Virtual",
+            "firmware": {
+                "manageFirmware": false,
+                "firmwareInstallType": null,
+                "forceInstallFirmware": false,
+                "firmwareBaselineUri": null
+            },
+            "connections": [
+                {
+                    "id": 1,
+                    "name": "nic1",
+                    "functionType": "Ethernet",
+                    "networkUri": "/rest/ethernet-networks/fb1f4430-f2ed-431f-8aa6-47bcbb8c440e",
+                    "portId": "Flb 1:1-a",
+                    "requestedVFs": "Auto",
+                    "requestedMbps": "2500"
+                }
+            ],
+            "bootMode": {
+                "manageMode": false,
+                "mode": null,
+                "pxeBootPolicy": null
+            },
+            "boot": {
+                "manageBoot": false,
+                "order": []
+            },
+            "bios": {
+                "manageBios": false,
+                "overriddenSettings": []
+            },
+            "localStorage": {
+                "controllers": []
+            },
+            "sanStorage": {
+                "manageSanStorage": false,
+                "volumeAttachments": []
+            },
+            "category": "server-profile-templates",
+            "created": "2016-02-18T16:57:23.503Z",
+            "modified": "2016-02-24T18:37:04.551Z",
+            "status": "OK",
+            "state": null,
+            "eTag": "1456339024551/2"
+        }
+    ],
+    "total": 1,
+    "count": 1,
+    "start": 0,
+    "prevPageUri": null,
+    "nextPageUri": null,
+    "category": "server-profile-templates",
+    "eTag": "2016-03-01T17:59:15.213Z",
+    "created": "2016-03-01T17:59:15.213Z",
+    "modified": "2016-03-01T17:59:15.213Z",
+    "uri": "/rest/server-profile-templates?start=0&count=64"
+}
