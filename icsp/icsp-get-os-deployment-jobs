@@ -1,0 +1,947 @@
+{
+    "type": "OsdPaginatedCollection",
+    "members": [
+        {
+            "typeOfJobType": "APX",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 0,
+                    "jobResultTotalSteps": 2,
+                    "jobResultLogDetails": "This is APX Add iLO-managed Server\nRegister iLO 10.16.40.141\nStarted iLO registration job (ID=440001)\n. . . . . . .\n",
+                    "jobResultErrorDetails": "ERROR: ID:   HPSA-1901\nCode:   com.opsware.ilo.ILO_CONNECTION_FAILURE\nDetails:   Failed to connect with given iLO server. Cause: [iLO (10.16.40.141)] Error : Login failed.\nAction: Please check your iLO connection credentials. Otherwise, contact your SA administrator.\n\n\n",
+                    "jobMessage": "Register iLO",
+                    "jobServerUri": "/rest/os-deployment-servers/0"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-apxs/2050001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "Administrator",
+            "nameOfJobType": "Add iLO-managed Server",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Add server (iLO 10.16.40.141)",
+            "name": "Add server (iLO 10.16.40.141)",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-18T17:20:29.000Z",
+            "modified": "2016-02-18T17:20:29.000Z",
+            "created": "2016-02-18T17:19:36.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/430001"
+        },
+        {
+            "typeOfJobType": "ILO",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 2,
+                    "jobResultTotalSteps": 3,
+                    "jobResultLogDetails": "Step 1 of 3:Validating iLO Server's ManagerConnection attributes\nStep 2 of 3:Accessing iLO service and checking for a valid ILO Server\n",
+                    "jobResultErrorDetails": "ID:   HPSA-1901\nCode:   com.opsware.ilo.ILO_CONNECTION_FAILURE\nDetails:   Failed to connect with given iLO server. Cause: [iLO (10.16.40.141)] Error : Login failed.\nAction: Please check your iLO connection credentials. Otherwise, contact your SA administrator.\n\n",
+                    "jobMessage": "Registration",
+                    "jobServerUri": null
+                }
+            ],
+            "uriOfJobType": "",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "Administrator",
+            "nameOfJobType": "Register server for iLO 10.16.40.141",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Register server for iLO 10.16.40.141",
+            "name": "Register server for iLO 10.16.40.141",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-18T17:20:26.000Z",
+            "modified": "2016-02-18T17:20:26.000Z",
+            "created": "2016-02-18T17:19:51.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/440001"
+        },
+        {
+            "typeOfJobType": "APX",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 2,
+                    "jobResultTotalSteps": 2,
+                    "jobResultLogDetails": "This is APX Add iLO-managed Server\nRegister iLO 10.16.40.141\nStarted iLO registration job (ID=460001)\n. . . . . . . . . .\n\niLO: ILO Service 10.16.40.141 (ID=20001)\nServer: ILOHOST-10.16.40.141 (ID=20001)\nServer State: PRE_UNPROVISIONED\n\nRunning OS Build Plan (ID=840001)...\n",
+                    "jobResultErrorDetails": "ERROR: Server failed to properly boot to maintenance and register with the appliance. Check the Boot to Service OS build plan job log for more details.\n",
+                    "jobMessage": "Boot server to maintenance",
+                    "jobServerUri": "/rest/os-deployment-servers/0"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-apxs/2050001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "Administrator",
+            "nameOfJobType": "Add iLO-managed Server",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Add server (iLO 10.16.40.141)",
+            "name": "Add server (iLO 10.16.40.141)",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-18T17:48:15.000Z",
+            "modified": "2016-02-18T17:48:15.000Z",
+            "created": "2016-02-18T17:27:46.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/450001"
+        },
+        {
+            "typeOfJobType": "ILO",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 3,
+                    "jobResultTotalSteps": 3,
+                    "jobResultLogDetails": "Step 1 of 3:Validating iLO Server's ManagerConnection attributes\nStep 2 of 3:Accessing iLO service and checking for a valid ILO Server\nStep 3 of 3:Registering iLO service\n",
+                    "jobResultErrorDetails": null,
+                    "jobMessage": "Registration",
+                    "jobServerUri": "/rest/os-deployment-servers/20001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-ilos/20001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "Administrator",
+            "nameOfJobType": "Register server for iLO 10.16.40.141",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Register server for iLO 10.16.40.141",
+            "name": "Register server for iLO 10.16.40.141",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-18T17:28:37.000Z",
+            "modified": "2016-02-18T17:28:37.000Z",
+            "created": "2016-02-18T17:27:50.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/460001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 3,
+                    "jobResultTotalSteps": 4,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant HW - Boot Linux Service OS (OSBuildPlanRef:840001) against server (ServerRef:20001)\n\nStep 1 of 4: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 4: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 4: Run OGFS Script 'Boot'\nBoot method: auto\nAgent is unreachable. Powering off server...\nConfiguring boot to Service OS: linux64\nRebooting the target server...\n\n\nStep 4 of 4: Run OGFS Script 'Wait for HP SA Agent'\nThe execution of the Build plan was forcefully stopped by a signal\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "Build Plan execution was stopped",
+                    "jobServerUri": "/rest/os-deployment-servers/20001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/840001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "FAILURE_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/20001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "DCA-RACK-02-C7000-03-Enclosure-1"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant HW - Boot Linux Service OS",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Run 'ProLiant HW - Boot Linux Service OS' build plan (id = 840001) against 1 server(s)",
+            "name": "ProLiant HW - Boot Linux Service OS",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-18T17:48:13.000Z",
+            "modified": "2016-02-18T17:48:13.000Z",
+            "created": "2016-02-18T17:28:53.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/470001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 3,
+                    "jobResultTotalSteps": 4,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant HW - Boot Linux Service OS (OSBuildPlanRef:840001) against server (ServerRef:20001)\n\nStep 1 of 4: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 4: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 4: Run OGFS Script 'Boot'\nBoot method: auto\nAgent is unreachable. Powering off server...\nConfiguring boot to Service OS: linux64\nRebooting the target server...\n\n\nStep 4 of 4: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nFailed To wait for the HP SA Agent: The agent did not appear on the network (is not listening on its port).\n\nWait for HP SA Agent failed with exit code 120.\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "Wait for HP SA Agent failed with exit code 120.",
+                    "jobServerUri": "/rest/os-deployment-servers/20001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/840001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "FAILURE_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/20001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "DCA-RACK-02-C7000-03-Enclosure-1"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant HW - Boot Linux Service OS",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Run 'ProLiant HW - Boot Linux Service OS' build plan (id = 840001) against 1 server(s)",
+            "name": "ProLiant HW - Boot Linux Service OS",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-18T18:12:05.000Z",
+            "modified": "2016-02-18T18:12:05.000Z",
+            "created": "2016-02-18T17:50:14.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/480001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 4,
+                    "jobResultTotalSteps": 4,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant HW - Boot Linux Service OS (OSBuildPlanRef:840001) against server (ServerRef:20001)\n\nStep 1 of 4: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 4: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 4: Run OGFS Script 'Boot'\nBoot method: auto\nAgent is unreachable. Powering off server...\nConfiguring boot to Service OS: linux64\nRebooting the target server...\n\n\nStep 4 of 4: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nMaintenance agent is accessible\n\nOS Build Plan completed successfully\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "OS Build Plan completed successfully",
+                    "jobServerUri": "/rest/os-deployment-servers/20001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/840001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "SUCCESS_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/20001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "DCA-RACK-02-C7000-03-Enclosure-1"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant HW - Boot Linux Service OS",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Run 'ProLiant HW - Boot Linux Service OS' build plan (id = 840001) against 1 server(s)",
+            "name": "ProLiant HW - Boot Linux Service OS",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-18T19:46:03.000Z",
+            "modified": "2016-02-18T19:46:03.000Z",
+            "created": "2016-02-18T19:38:52.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/490001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 19,
+                    "jobResultTotalSteps": 25,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant OS - CentOS 7.1 x64 Scripted Install (OSBuildPlanRef:1430001) against server (ServerRef:20001)\n\nStep 1 of 25: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 25: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 25: Run OGFS Script 'Boot'\nBoot method: auto\nSkipping boot configuration, the target server is booted into the same Service OS with the same architecture, IP stack and boot method.\n\n\nStep 4 of 25: Run OGFS Script 'Decommission Server'\nThe target server is not agent managed, skipping decommissioning\n\n\nStep 5 of 25: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nMaintenance agent is accessible\n\n\nStep 6 of 25: Run Server Script 'Set Media Source'\nSuccessfully set media source http://10.16.160.5/deployment/centos71-x64\n\n\nStep 7 of 25:  'Installing Configuration Template RHEL 7.1 x64 en_us Kickstart. Location /tmp/user.ks.cfg'\nStep 8 of 25: Run OGFS Script 'Inject Required Kickstart Settings'\nKickstart file written to disk\nSuccessfully injected required settings\n\n\nStep 9 of 25: Run OGFS Script 'Inject Kickstart Personalization Settings'\nRemoving existing network personalization from the kickstart\nGoing to provision using interface with MAC address 46:18:9C:B0:00:00\nConfiguring boot protocol to: dhcp\nDisabling IPv6\n\n\nStep 10 of 25: Run Server Script 'Create Stub Partition'\nBoot disk partitioned. Stub partition filesystem is on /dev/sda1.\nSuccessfully mounted stub partition filesystem on /mnt/root.\n\n\nStep 11 of 25: Run Server Script 'Copy Boot Media'\nWill copy from http://10.16.160.5/deployment/centos71-x64\nFound configuration at isolinux/isolinux.cfg\nWill discover media using label linux\nAdding kernel to be copied\nAdding initrd(s) to files to be copied\nCopying isolinux/vmlinuz to /mnt/root\nCopying isolinux/initrd.img to /mnt/root\nSuccessfully copied all boot media\n\n\nStep 12 of 25: Install Zip Package : ProLiant Drivers for RHEL 7.1 x64 - 2015.06.0 'ProLiant Drivers for RHEL 7.1 x64 - 2015.06.0'\nDownloading ProLiant Drivers for RHEL 7.1 x64 - 2015.06.0 (ID: 5310001) to /tmp/dud/PLDrivers-rh7u1-x64-initrd-2015.06.0.zip\n\nStep 13 of 25: Install Zip Package : GRuB Boot Loader x86 'GRuB Boot Loader x86'\nDownloading GRuB Boot Loader x86 (ID: 3510001) to /tmp/grub.zip\n\nStep 14 of 25: Run Server Script 'Deploy Agent'\nDownloaded osprov_ogfs_agent-LINUX-7SERVER-X86_64 to /tmp/opt/opsware/agent/ogfs-agent.zip\n\n\nStep 15 of 25: Run Server Script 'Embed Monitoring SA Agent'\nStep 16 of 25: Run Server Script 'Embed files initrd'\nAdding to intrd /mnt/root/localrds/000_safiles : source /tmp/user.ks.cfg -> destination: /\nAdding to intrd /mnt/root/localrds/000_safiles : source /tmp/opt/opsware/agent -> destination: /opt/opsware/\nAdding to intrd /mnt/root/localrds/000_safiles : source /tmp/dud/. -> destination: /\n\n\nStep 17 of 25: Run Server Script 'Install bootloader for RedHat Enterprise Linux 7 Server'\nCopying Boot Loader files to runtime location\nPreparing Boot Loader config script\nInstalling Boot Loader\nFound kernel arguments: geoloc=0  hpsa_monitoring_agent=1\n\n\nStep 18 of 25: Run OGFS Script 'Reboot'\nInitiating reboot now...\n\n\nStep 19 of 25: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nMaintenance agent is accessible\n\n\nStep 20 of 25: Run OGFS Script 'Monitor Installation'\nMonitoring /opsw/.Server.ID/20001/files/root/tmp/packaging.log log file\nWaiting for /opsw/.Server.ID/20001/files/root/tmp/packaging.log to appear\nFound the log file\nHere are the last 50 lines of the log:\n20:12:18,254 INFO packaging: gathering repo metadata for anaconda\n20:12:18,258 ERR packaging: failed to grab repo metadata for anaconda: failure: repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz from anaconda: [Errno 256] No more mirrors to try.\nhttp://10.16.160.5/deployment/centos71-x64/repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz: [Errno 14] HTTP Error 404 - Not Found\n20:12:18,258 INFO packaging: retrying metadata download for repo anaconda, retrying (5/10)\n20:12:26,266 INFO packaging: gathering repo metadata for anaconda\n20:12:26,270 ERR packaging: failed to grab repo metadata for anaconda: failure: repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz from anaconda: [Errno 256] No more mirrors to try.\nhttp://10.16.160.5/deployment/centos71-x64/repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz: [Errno 14] HTTP Error 404 - Not Found\n20:12:26,270 INFO packaging: retrying metadata download for repo anaconda, retrying (6/10)\n20:12:42,275 INFO packaging: gathering repo metadata for anaconda\n20:12:42,279 ERR packaging: failed to grab repo metadata for anaconda: failure: repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz from anaconda: [Errno 256] No more mirrors to try.\nhttp://10.16.160.5/deployment/centos71-x64/repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz: [Errno 14] HTTP Error 404 - Not Found\n20:12:42,280 INFO packaging: retrying metadata download for repo anaconda, retrying (7/10)\n20:13:14,312 INFO packaging: gathering repo metadata for anaconda\n20:13:14,320 ERR packaging: failed to grab repo metadata for anaconda: failure: repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz from anaconda: [Errno 256] No more mirrors to try.\nhttp://10.16.160.5/deployment/centos71-x64/repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz: [Errno 14] HTTP Error 404 - Not Found\n20:13:14,321 INFO packaging: retrying metadata download for repo anaconda, retrying (8/10)\n20:14:18,385 INFO packaging: gathering repo metadata for anaconda\n20:14:18,391 ERR packaging: failed to grab repo metadata for anaconda: failure: repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz from anaconda: [Errno 256] No more mirrors to try.\nhttp://10.16.160.5/deployment/centos71-x64/repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz: [Errno 14] HTTP Error 404 - Not Found\n20:14:18,392 INFO packaging: retrying metadata download for repo anaconda, retrying (9/10)\n20:16:26,450 INFO packaging: gathering repo metadata for anaconda\n20:16:26,456 ERR packaging: failed to grab repo metadata for anaconda: failure: repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz from anaconda: [Errno 256] No more mirrors to try.\nhttp://10.16.160.5/deployment/centos71-x64/repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz: [Errno 14] HTTP Error 404 - Not Found\n20:16:26,456 INFO packaging: retrying metadata download for repo anaconda, retrying (10/10)\n20:20:42,472 INFO packaging: gathering repo metadata for anaconda\n20:20:42,478 ERR packaging: failed to grab repo metadata for anaconda: failure: repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz from anaconda: [Errno 256] No more mirrors to try.\nhttp://10.16.160.5/deployment/centos71-x64/repodata/6990209f63a9fd811f13e830ac3c6de4c5d70a42b1c6873e4329b523d394c3bd-primary.xml.gz: [Errno 14] HTTP Error 404 - Not Found\n20:20:42,478 ERR packaging: metadata download for repo anaconda failed after 10 retries\n20:20:42,480 INFO packaging: skipping disabled repo C7.0.1406-centosplus\n20:20:42,480 INFO packaging: skipping disabled repo C7.0.1406-fasttrack\n20:20:42,480 INFO packaging: skipping disabled repo cr\n20:20:42,480 INFO packaging: skipping disabled repo c7-media\n20:20:42,481 INFO packaging: skipping disabled repo C7.1.1503-base\n20:20:42,481 INFO packaging: skipping disabled repo C7.0.1406-base\n20:20:42,481 INFO packaging: skipping disabled repo C7.1.1503-centosplus\n20:20:42,481 INFO packaging: skipping disabled repo C7.1.1503-fasttrack\n20:20:42,482 INFO packaging: skipping disabled repo base\n20:20:42,482 INFO packaging: skipping disabled repo updates\n20:20:42,482 INFO packaging: skipping disabled repo C7.0.1406-updates\n20:20:42,482 INFO packaging: skipping disabled repo C7.0.1406-extras\n20:20:42,482 INFO packaging: skipping disabled repo extras\n20:20:42,483 INFO packaging: skipping disabled repo C7.1.1503-updates\n20:20:42,483 INFO packaging: skipping disabled repo C7.1.1503-extras\n20:20:42,483 INFO packaging: skipping disabled repo centosplus\n20:20:42,483 INFO packaging: Refreshing environmentAddons\n20:20:42,484 DEBUG yum.verbose.YumBase: Setting up Package Sacks\n20:20:42,485 INFO_2 yum.verbose.plugin: Determining fastest mirrors\n20:20:42,486 DEBUG yum.verbose.YumBase: group time: 0.002\n20:20:42,486 INFO packaging: metadata retrieval complete\n20:20:42,487 ERR packaging: No base repo configured\n\nFailed To monitor installation: Monitoring the log file timed out.\n\nMonitor Installation failed with exit code 120.\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "Monitor Installation failed with exit code 120.",
+                    "jobServerUri": "/rest/os-deployment-servers/20001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/1430001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "FAILURE_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/20001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "DCA-RACK-02-C7000-03-Enclosure-1"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant OS - CentOS 7.1 x64 Scripted Install",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Run 'ProLiant OS - CentOS 7.1 x64 Scripted Install' build plan (id = 1430001) against 1 server(s)",
+            "name": "ProLiant OS - CentOS 7.1 x64 Scripted Install",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-18T20:26:07.000Z",
+            "modified": "2016-02-18T20:26:07.000Z",
+            "created": "2016-02-18T19:57:28.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/500001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 19,
+                    "jobResultTotalSteps": 25,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant OS - CentOS 7.1 x64 Scripted Install (OSBuildPlanRef:1430001) against server (ServerRef:20001)\n\nStep 1 of 25: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 25: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 25: Run OGFS Script 'Boot'\nBoot method: auto\nConfiguring boot to Service OS: linux64\nRebooting the target server...\n\n\nStep 4 of 25: Run OGFS Script 'Decommission Server'\nThe target server is not agent managed, skipping decommissioning\n\n\nStep 5 of 25: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nMaintenance agent is accessible\n\n\nStep 6 of 25: Run Server Script 'Set Media Source'\nSuccessfully set media source http://10.16.160.5/deployment/centos71-x64\n\n\nStep 7 of 25:  'Installing Configuration Template RHEL 7.1 x64 en_us Kickstart. Location /tmp/user.ks.cfg'\nStep 8 of 25: Run OGFS Script 'Inject Required Kickstart Settings'\nKickstart file written to disk\nSuccessfully injected required settings\n\n\nStep 9 of 25: Run OGFS Script 'Inject Kickstart Personalization Settings'\nRemoving existing network personalization from the kickstart\nGoing to provision using interface with MAC address 46:18:9C:B0:00:00\nConfiguring boot protocol to: dhcp\nDisabling IPv6\n\n\nStep 10 of 25: Run Server Script 'Create Stub Partition'\nBoot disk partitioned. Stub partition filesystem is on /dev/sda1.\nSuccessfully mounted stub partition filesystem on /mnt/root.\n\n\nStep 11 of 25: Run Server Script 'Copy Boot Media'\nWill copy from http://10.16.160.5/deployment/centos71-x64\nFound configuration at isolinux/isolinux.cfg\nWill discover media using label linux\nAdding kernel to be copied\nAdding initrd(s) to files to be copied\nCopying isolinux/vmlinuz to /mnt/root\nCopying isolinux/initrd.img to /mnt/root\nSuccessfully copied all boot media\n\n\nStep 12 of 25: Install Zip Package : ProLiant Drivers for RHEL 7.1 x64 - 2015.06.0 'ProLiant Drivers for RHEL 7.1 x64 - 2015.06.0'\nDownloading ProLiant Drivers for RHEL 7.1 x64 - 2015.06.0 (ID: 5310001) to /tmp/dud/PLDrivers-rh7u1-x64-initrd-2015.06.0.zip\n\nStep 13 of 25: Install Zip Package : GRuB Boot Loader x86 'GRuB Boot Loader x86'\nDownloading GRuB Boot Loader x86 (ID: 3510001) to /tmp/grub.zip\n\nStep 14 of 25: Run Server Script 'Deploy Agent'\nDownloaded osprov_ogfs_agent-LINUX-7SERVER-X86_64 to /tmp/opt/opsware/agent/ogfs-agent.zip\n\n\nStep 15 of 25: Run Server Script 'Embed Monitoring SA Agent'\nStep 16 of 25: Run Server Script 'Embed files initrd'\nAdding to intrd /mnt/root/localrds/000_safiles : source /tmp/user.ks.cfg -> destination: /\nAdding to intrd /mnt/root/localrds/000_safiles : source /tmp/opt/opsware/agent -> destination: /opt/opsware/\nAdding to intrd /mnt/root/localrds/000_safiles : source /tmp/dud/. -> destination: /\n\n\nStep 17 of 25: Run Server Script 'Install bootloader for RedHat Enterprise Linux 7 Server'\nCopying Boot Loader files to runtime location\nPreparing Boot Loader config script\nInstalling Boot Loader\nFound kernel arguments: geoloc=0  hpsa_monitoring_agent=1\n\n\nStep 18 of 25: Run OGFS Script 'Reboot'\nInitiating reboot now...\n\n\nStep 19 of 25: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nMaintenance agent is accessible\n\n\nStep 20 of 25: Run OGFS Script 'Monitor Installation'\nMonitoring /opsw/.Server.ID/20001/files/root/tmp/packaging.log log file\nWaiting for /opsw/.Server.ID/20001/files/root/tmp/packaging.log to appear\nFound the log file\nHere are the last 50 lines of the log:\n22:24:11,902 DEBUG packaging: got a release version of 7\n22:24:13,331 DEBUG packaging: Restarting payload thread\n22:24:13,342 DEBUG packaging: Updating payload thread state: 0\n22:24:13,343 DEBUG packaging: Updating payload thread state: 1\n22:24:15,751 DEBUG packaging: Updating payload thread state: 2\n22:24:15,753 DEBUG packaging: Updating payload thread state: 3\n22:24:15,754 INFO packaging: configuring base repo\n22:24:15,759 DEBUG packaging: getting release version from tree at http://10.16.160.5/deployment/centos71-x64 (7)\n22:24:15,759 DEBUG packaging: retrieving treeinfo from http://10.16.160.5/deployment/centos71-x64 (proxy:  ; sslverify: True)\n22:24:15,766 DEBUG packaging: got a release version of 7\n22:24:15,766 DEBUG packaging: releasever from http://10.16.160.5/deployment/centos71-x64 is 7\n22:24:15,777 INFO_2 yum.verbose.YumPlugins: Configuration file /tmp/yum.pluginconf.d/fastestmirror.conf not found\n22:24:15,783 INFO_2 yum.verbose.YumPlugins: Configuration file /tmp/yum.pluginconf.d/langpacks.conf not found\n22:24:15,790 INFO_2 yum.verbose.YumPlugins: Configuration file /tmp/yum.pluginconf.d/product-id.conf not found\n22:24:15,992 INFO_2 yum.verbose.YumPlugins: Loaded plugins: fastestmirror, langpacks, product-id\n22:24:15,992 INFO_2 yum.verbose.YumPlugins: No plugin match for: fastestmirror\n22:24:15,992 INFO_2 yum.verbose.YumPlugins: No plugin match for: langpacks\n22:24:15,992 DEBUG yum.verbose.plugin: Adding en_US to language list\n22:24:15,995 DEBUG yum.verbose.YumBase: Config time: 0.228\n22:24:16,017 INFO_2 yum.verbose.YumPlugins: Configuration file /tmp/yum.pluginconf.d/fastestmirror.conf not found\n22:24:16,018 INFO_2 yum.verbose.YumPlugins: Configuration file /tmp/yum.pluginconf.d/langpacks.conf not found\n22:24:16,019 INFO_2 yum.verbose.YumPlugins: Configuration file /tmp/yum.pluginconf.d/product-id.conf not found\n22:24:16,020 INFO_2 yum.verbose.YumPlugins: Loaded plugins: fastestmirror, langpacks, product-id\n22:24:16,020 INFO_2 yum.verbose.YumPlugins: No plugin match for: fastestmirror\n22:24:16,020 INFO_2 yum.verbose.YumPlugins: No plugin match for: langpacks\n22:24:16,021 DEBUG yum.verbose.plugin: Adding en_US to language list\n22:24:16,022 DEBUG yum.verbose.YumBase: Config time: 0.007\n22:24:16,041 DEBUG packaging: adding yum repo anaconda with baseurl http://10.16.160.5/deployment/centos71-x64 and mirrorlist None\n22:24:16,061 DEBUG packaging: retrieving treeinfo from http://10.16.160.5/deployment/centos71-x64 (proxy:  ; sslverify: True)\n22:24:16,066 DEBUG packaging: disabling repo C7.0.1406-base\n22:24:16,066 DEBUG packaging: disabling repo C7.0.1406-updates\n22:24:16,067 DEBUG packaging: disabling repo fasttrack\n22:24:16,067 DEBUG packaging: disabling repo C7.0.1406-centosplus\n22:24:16,067 DEBUG packaging: disabling repo C7.0.1406-extras\n22:24:16,067 DEBUG packaging: disabling repo base\n22:24:16,067 DEBUG packaging: disabling repo C7.0.1406-fasttrack\n22:24:16,067 DEBUG packaging: disabling repo updates\n22:24:16,068 DEBUG packaging: disabling repo cr\n22:24:16,068 DEBUG packaging: disabling repo centosplus\n22:24:16,068 DEBUG packaging: disabling repo extras\n22:24:16,068 DEBUG packaging: Updating payload thread state: 4\n22:24:16,068 INFO packaging: gathering repo metadata\n22:24:16,068 DEBUG packaging: getting repo metadata for anaconda\n22:24:16,070 ERR packaging: failed to grab repo metadata for anaconda: failure: repodata/1386c5af55bda40669bb5ed91e0a22796c3ed7325367506109b09ea2657f22bd-primary.xml.gz from anaconda: [Errno 256] No more mirrors to try.\nhttp://10.16.160.5/deployment/centos71-x64/repodata/1386c5af55bda40669bb5ed91e0a22796c3ed7325367506109b09ea2657f22bd-primary.xml.gz: [Errno 14] HTTP Error 404 - Not Found\n22:24:16,071 DEBUG packaging: disabling repo anaconda\n22:24:16,071 INFO packaging: metadata retrieval complete\n22:24:16,071 DEBUG packaging: deleting package sacks\n22:24:16,071 ERR packaging: No base repo configured\n22:24:16,071 DEBUG packaging: Updating payload thread state: -1\n\nFailed To monitor installation: Monitoring the log file timed out.\n\nMonitor Installation failed with exit code 120.\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "Monitor Installation failed with exit code 120.",
+                    "jobServerUri": "/rest/os-deployment-servers/20001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/1430001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "FAILURE_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/20001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "DCA-RACK-02-C7000-03-Enclosure-1"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant OS - CentOS 7.1 x64 Scripted Install",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Run 'ProLiant OS - CentOS 7.1 x64 Scripted Install' build plan (id = 1430001) against 1 server(s)",
+            "name": "ProLiant OS - CentOS 7.1 x64 Scripted Install",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-18T22:35:12.000Z",
+            "modified": "2016-02-18T22:35:12.000Z",
+            "created": "2016-02-18T22:12:11.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/510001"
+        },
+        {
+            "typeOfJobType": "APX",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 2,
+                    "jobResultTotalSteps": 2,
+                    "jobResultLogDetails": "This is APX Add iLO-managed Server\nRegister iLO 10.16.40.143\nStarted iLO registration job (ID=530001)\n. . . . . . . . .\n\niLO: ILO Service 10.16.40.143 (ID=30001)\nServer: ILOHOST-10.16.40.143 (ID=30001)\nServer State: PRE_UNPROVISIONED\n\nRunning OS Build Plan (ID=840001)...\n",
+                    "jobResultErrorDetails": "ERROR: Server failed to properly boot to maintenance and register with the appliance. Check the Boot to Service OS build plan job log for more details.\n",
+                    "jobMessage": "Boot server to maintenance",
+                    "jobServerUri": "/rest/os-deployment-servers/0"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-apxs/2050001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "Administrator",
+            "nameOfJobType": "Add iLO-managed Server",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Add server (iLO 10.16.40.143)",
+            "name": "Add server (iLO 10.16.40.143)",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-18T23:12:29.000Z",
+            "modified": "2016-02-18T23:12:29.000Z",
+            "created": "2016-02-18T22:50:36.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/520001"
+        },
+        {
+            "typeOfJobType": "ILO",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 3,
+                    "jobResultTotalSteps": 3,
+                    "jobResultLogDetails": "Step 1 of 3:Validating iLO Server's ManagerConnection attributes\nStep 2 of 3:Accessing iLO service and checking for a valid ILO Server\nStep 3 of 3:Registering iLO service\n",
+                    "jobResultErrorDetails": null,
+                    "jobMessage": "Registration",
+                    "jobServerUri": null
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-ilos/30001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "Administrator",
+            "nameOfJobType": "Register server for iLO 10.16.40.143",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Register server for iLO 10.16.40.143",
+            "name": "Register server for iLO 10.16.40.143",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-18T22:51:22.000Z",
+            "modified": "2016-02-18T22:51:22.000Z",
+            "created": "2016-02-18T22:50:40.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/530001"
+        },
+        {
+            "typeOfJobType": "APX",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 2,
+                    "jobResultTotalSteps": 2,
+                    "jobResultLogDetails": "This is APX Add iLO-managed Server\nRegister iLO 10.16.40.145\nStarted iLO registration job (ID=550001)\n. . . . .\n\niLO: ILO Service 10.16.40.145 (ID=40001)\nServer: ILOHOST-10.16.40.145 (ID=40001)\nServer State: PRE_UNPROVISIONED\n\nRunning OS Build Plan (ID=840001)...\n",
+                    "jobResultErrorDetails": "ERROR: Server failed to properly boot to maintenance and register with the appliance. Check the Boot to Service OS build plan job log for more details.\n",
+                    "jobMessage": "Boot server to maintenance",
+                    "jobServerUri": "/rest/os-deployment-servers/0"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-apxs/2050001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "Administrator",
+            "nameOfJobType": "Add iLO-managed Server",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Add server (iLO 10.16.40.145)",
+            "name": "Add server (iLO 10.16.40.145)",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-18T23:12:28.000Z",
+            "modified": "2016-02-18T23:12:28.000Z",
+            "created": "2016-02-18T22:51:05.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/540001"
+        },
+        {
+            "typeOfJobType": "ILO",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 3,
+                    "jobResultTotalSteps": 3,
+                    "jobResultLogDetails": "Step 1 of 3:Validating iLO Server's ManagerConnection attributes\nStep 2 of 3:Accessing iLO service and checking for a valid ILO Server\nStep 3 of 3:Registering iLO service\n",
+                    "jobResultErrorDetails": null,
+                    "jobMessage": "Registration",
+                    "jobServerUri": "/rest/os-deployment-servers/40001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-ilos/40001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "Administrator",
+            "nameOfJobType": "Register server for iLO 10.16.40.145",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Register server for iLO 10.16.40.145",
+            "name": "Register server for iLO 10.16.40.145",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-18T22:51:32.000Z",
+            "modified": "2016-02-18T22:51:32.000Z",
+            "created": "2016-02-18T22:51:09.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/550001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 3,
+                    "jobResultTotalSteps": 4,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant HW - Boot Linux Service OS (OSBuildPlanRef:840001) against server (ServerRef:30001)\n\nStep 1 of 4: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 4: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 4: Run OGFS Script 'Boot'\nBoot method: auto\nAgent is unreachable. Powering off server...\nConfiguring boot to Service OS: linux64\nRebooting the target server...\n\n\nStep 4 of 4: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nFailed To wait for the HP SA Agent: The agent did not appear on the network (is not listening on its port).\n\nWait for HP SA Agent failed with exit code 120.\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "Wait for HP SA Agent failed with exit code 120.",
+                    "jobServerUri": "/rest/os-deployment-servers/30001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/840001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "FAILURE_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/30001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": null
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant HW - Boot Linux Service OS",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Run 'ProLiant HW - Boot Linux Service OS' build plan (id = 840001) against 1 server(s)",
+            "name": "ProLiant HW - Boot Linux Service OS",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-18T23:12:20.000Z",
+            "modified": "2016-02-18T23:12:20.000Z",
+            "created": "2016-02-18T22:51:37.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/560001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 3,
+                    "jobResultTotalSteps": 4,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant HW - Boot Linux Service OS (OSBuildPlanRef:840001) against server (ServerRef:40001)\n\nStep 1 of 4: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 4: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 4: Run OGFS Script 'Boot'\nBoot method: auto\nAgent is unreachable. Powering off server...\nConfiguring boot to Service OS: linux64\nRebooting the target server...\n\n\nStep 4 of 4: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nFailed To wait for the HP SA Agent: The agent did not appear on the network (is not listening on its port).\n\nWait for HP SA Agent failed with exit code 120.\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "Wait for HP SA Agent failed with exit code 120.",
+                    "jobServerUri": "/rest/os-deployment-servers/40001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/840001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "FAILURE_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/40001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "DCA-RACK-02-C7000-03-Enclosure-5"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant HW - Boot Linux Service OS",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Run 'ProLiant HW - Boot Linux Service OS' build plan (id = 840001) against 1 server(s)",
+            "name": "ProLiant HW - Boot Linux Service OS",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-18T23:12:24.000Z",
+            "modified": "2016-02-18T23:12:24.000Z",
+            "created": "2016-02-18T22:51:45.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/570001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 4,
+                    "jobResultTotalSteps": 4,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant HW - Boot Linux Service OS (OSBuildPlanRef:840001) against server (ServerRef:40001)\n\nStep 1 of 4: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 4: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 4: Run OGFS Script 'Boot'\nBoot method: auto\nAgent is unreachable. Powering off server...\nConfiguring boot to Service OS: linux64\nRebooting the target server...\n\n\nStep 4 of 4: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nMaintenance agent is accessible\n\nOS Build Plan completed successfully\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "OS Build Plan completed successfully",
+                    "jobServerUri": "/rest/os-deployment-servers/40001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/840001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "SUCCESS_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/40001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "DCA-RACK-02-C7000-03-Enclosure-5"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant HW - Boot Linux Service OS",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Run 'ProLiant HW - Boot Linux Service OS' build plan (id = 840001) against 1 server(s)",
+            "name": "ProLiant HW - Boot Linux Service OS",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-18T23:34:53.000Z",
+            "modified": "2016-02-18T23:34:53.000Z",
+            "created": "2016-02-18T23:27:25.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/580001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 4,
+                    "jobResultTotalSteps": 4,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant HW - Boot Linux Service OS (OSBuildPlanRef:840001) against server (ServerRef:40001)\n\nStep 1 of 4: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 4: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 4: Run OGFS Script 'Boot'\nBoot method: auto\nSkipping boot configuration, the target server is booted into the same Service OS with the same architecture, IP stack and boot method.\n\n\nStep 4 of 4: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nMaintenance agent is accessible\n\nOS Build Plan completed successfully\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "OS Build Plan completed successfully",
+                    "jobServerUri": "/rest/os-deployment-servers/40001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/840001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "SUCCESS_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/40001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "DCA-RACK-02-C7000-03-Enclosure-5"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant HW - Boot Linux Service OS",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Run 'ProLiant HW - Boot Linux Service OS' build plan (id = 840001) against 1 server(s)",
+            "name": "ProLiant HW - Boot Linux Service OS",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-18T23:42:07.000Z",
+            "modified": "2016-02-18T23:42:07.000Z",
+            "created": "2016-02-18T23:38:46.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/590001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 20,
+                    "jobResultTotalSteps": 20,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant OS - ESXi 6.0 Scripted Install (OSBuildPlanRef:1000001) against server (ServerRef:40001)\n\nStep 1 of 20: Run OGFS Script 'Validate Gateway Setting for Static Network Configuration'\nSkipping gateway validation\nNo static network configuration details has been specified\n\n\nStep 2 of 20: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 3 of 20: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'disabled', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan does not support the following  boot modes:\n - UEFI with secure boot enabled\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 4 of 20: Run OGFS Script 'Boot'\nBoot method: auto\nSkipping boot configuration, the target server is booted into the same Service OS with the same architecture, IP stack and boot method.\n\n\nStep 5 of 20: Run OGFS Script 'Decommission Server'\nThe target server is not agent managed, skipping decommissioning\n\n\nStep 6 of 20: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nMaintenance agent is accessible\n\n\nStep 7 of 20: Run Server Script 'Set Media Source'\nSuccessfully set media source http://10.16.160.5/deployment/esxi60\n\n\nStep 8 of 20:  'Installing Configuration Template ESXi 6.0 Kickstart. Location /tmp/user.ks.cfg'\nStep 9 of 20: Run OGFS Script 'Inject Required ESXi 5 Kickstart Settings'\nKickstart file written to disk\nSuccessfully injected required settings\n\n\nStep 10 of 20: Run OGFS Script 'Inject Kickstart Personalization Settings for ESXi 5'\nRemoving existing network personalization from the kickstart\nGoing to provision using interface with MAC address 46:18:9C:B0:00:02\nConfiguring boot protocol to: dhcp\n\n\nStep 11 of 20: Run Server Script 'Create Stub Partition'\nBoot disk partitioned. Stub partition filesystem is on /dev/sda1.\nSuccessfully mounted stub partition filesystem on /mnt/root.\n\n\nStep 12 of 20: Run Server Script 'Copy Boot Media'\nWill copy from http://10.16.160.5/deployment/esxi60\nFound configuration at isolinux.cfg\nWill discover media using label install\nAdding kernel to be copied\nAdding modules from boot configuration file\nCopying mboot.c32 to /mnt/root\nCopying boot.cfg to /mnt/root\nCopying /tboot.b00 to /mnt/root\nCopying /b.b00 to /mnt/root\nCopying /jumpstrt.gz to /mnt/root\nCopying /useropts.gz to /mnt/root\nCopying /k.b00 to /mnt/root\nCopying /chardevs.b00 to /mnt/root\nCopying /a.b00 to /mnt/root\nCopying /user.b00 to /mnt/root\nCopying /uc_intel.b00 to /mnt/root\nCopying /uc_amd.b00 to /mnt/root\nCopying /sb.v00 to /mnt/root\nCopying /s.v00 to /mnt/root\nCopying /misc_cni.v00 to /mnt/root\nCopying /net_bnx2.v00 to /mnt/root\nCopying /net_bnx2.v01 to /mnt/root\nCopying /net_cnic.v00 to /mnt/root\nCopying /net_tg3.v00 to /mnt/root\nCopying /scsi_bnx.v00 to /mnt/root\nCopying /scsi_bnx.v01 to /mnt/root\nCopying /scsi_bfa.v00 to /mnt/root\nCopying /elxnet.v00 to /mnt/root\nCopying /ima_be2i.v00 to /mnt/root\nCopying /lpfc.v00 to /mnt/root\nCopying /scsi_be2.v00 to /mnt/root\nCopying /char_hpc.v00 to /mnt/root\nCopying /char_hpi.v00 to /mnt/root\nCopying /hp_ams.v00 to /mnt/root\nCopying /hp_build.v00 to /mnt/root\nCopying /hp_conre.v00 to /mnt/root\nCopying /hp_esxi_.v00 to /mnt/root\nCopying /hp_smx_p.v00 to /mnt/root\nCopying /hpbootcf.v00 to /mnt/root\nCopying /hpnmi.v00 to /mnt/root\nCopying /hponcfg.v00 to /mnt/root\nCopying /hpssacli.v00 to /mnt/root\nCopying /hptestev.v00 to /mnt/root\nCopying /scsi_hpd.v00 to /mnt/root\nCopying /scsi_hps.v00 to /mnt/root\nCopying /scsi_hpv.v00 to /mnt/root\nCopying /net_igb.v00 to /mnt/root\nCopying /net_ixgb.v00 to /mnt/root\nCopying /scsi_mpt.v00 to /mnt/root\nCopying /ima_qla4.v00 to /mnt/root\nCopying /net_nx_n.v00 to /mnt/root\nCopying /net_qlcn.v00 to /mnt/root\nCopying /qlnative.v00 to /mnt/root\nCopying /scsi_qla.v00 to /mnt/root\nCopying /mtip32xx.v00 to /mnt/root\nCopying /ata_pata.v00 to /mnt/root\nCopying /ata_pata.v01 to /mnt/root\nCopying /ata_pata.v02 to /mnt/root\nCopying /ata_pata.v03 to /mnt/root\nCopying /ata_pata.v04 to /mnt/root\nCopying /ata_pata.v05 to /mnt/root\nCopying /ata_pata.v06 to /mnt/root\nCopying /ata_pata.v07 to /mnt/root\nCopying /block_cc.v00 to /mnt/root\nCopying /ehci_ehc.v00 to /mnt/root\nCopying /emulex_e.v00 to /mnt/root\nCopying /weaselin.t00 to /mnt/root\nCopying /esx_dvfi.v00 to /mnt/root\nCopying /ipmi_ipm.v00 to /mnt/root\nCopying /ipmi_ipm.v01 to /mnt/root\nCopying /ipmi_ipm.v02 to /mnt/root\nCopying /lsi_mr3.v00 to /mnt/root\nCopying /lsi_msgp.v00 to /mnt/root\nCopying /lsu_hp_h.v00 to /mnt/root\nCopying /lsu_lsi_.v00 to /mnt/root\nCopying /lsu_lsi_.v01 to /mnt/root\nCopying /lsu_lsi_.v02 to /mnt/root\nCopying /lsu_lsi_.v03 to /mnt/root\nCopying /lsu_lsi_.v04 to /mnt/root\nCopying /misc_dri.v00 to /mnt/root\nCopying /net_e100.v00 to /mnt/root\nCopying /net_e100.v01 to /mnt/root\nCopying /net_enic.v00 to /mnt/root\nCopying /net_forc.v00 to /mnt/root\nCopying /net_mlx4.v00 to /mnt/root\nCopying /net_mlx4.v01 to /mnt/root\nCopying /net_vmxn.v00 to /mnt/root\nCopying /nmlx4_co.v00 to /mnt/root\nCopying /nmlx4_en.v00 to /mnt/root\nCopying /nmlx4_rd.v00 to /mnt/root\nCopying /nvme.v00 to /mnt/root\nCopying /ohci_usb.v00 to /mnt/root\nCopying /rste.v00 to /mnt/root\nCopying /sata_ahc.v00 to /mnt/root\nCopying /sata_ata.v00 to /mnt/root\nCopying /sata_sat.v00 to /mnt/root\nCopying /sata_sat.v01 to /mnt/root\nCopying /sata_sat.v02 to /mnt/root\nCopying /sata_sat.v03 to /mnt/root\nCopying /sata_sat.v04 to /mnt/root\nCopying /scsi_aac.v00 to /mnt/root\nCopying /scsi_adp.v00 to /mnt/root\nCopying /scsi_aic.v00 to /mnt/root\nCopying /scsi_fni.v00 to /mnt/root\nCopying /scsi_ips.v00 to /mnt/root\nCopying /scsi_meg.v00 to /mnt/root\nCopying /scsi_meg.v01 to /mnt/root\nCopying /scsi_meg.v02 to /mnt/root\nCopying /scsi_mpt.v01 to /mnt/root\nCopying /scsi_mpt.v02 to /mnt/root\nCopying /uhci_usb.v00 to /mnt/root\nCopying /xhci_xhc.v00 to /mnt/root\nCopying /tools.t00 to /mnt/root\nCopying /xorg.v00 to /mnt/root\nCopying /imgdb.tgz to /mnt/root\nCopying /imgpayld.tgz to /mnt/root\nCopying /efi/boot/bootx64.efi to /mnt/root\nSuccessfully copied all boot media\n\n\nStep 13 of 20: Install Zip Package : ESXi Installation Utilities 'ESXi Installation Utilities'\nDownloading ESXi Installation Utilities (ID: 3490001) to /tmp/esxi_utilities.zip\n\nStep 14 of 20: Run Server Script 'Deploy Agent'\nDownloaded and extracted osprov_ogfs_agent-LINUX-5SERVER-X86_64 to /opt/hpsa_agent\n\n\nStep 15 of 20: Run Server Script 'Add ESXi Module'\nAdding /opt/hpsa_agent to ESXi module\n\n\nStep 16 of 20: Run Server Script 'Add ESXi Module'\nAdding /tmp/user.ks.cfg to ESXi module\n\n\nStep 17 of 20: Run Server Script 'Install bootloader for ESXi'\nInstalling boot loader on /dev/sda\nFound msdos partition table, configuring for BIOS boot\nSuccessfully installed the boot loader\n\n\nStep 18 of 20: Run OGFS Script 'Reboot'\nInitiating reboot now...\n\n\nStep 19 of 20: Run OGFS Script 'Add ESXi Boot Option To UEFI Boot Order'\nBoot Mode is not UEFI.  Skipping this step.\n\n\nStep 20 of 20: Run OGFS Script 'Wait for ESXi installation'\nSuccessfully connected to 10.16.160.104 on port 443\nThe ESXi installer finished successfully\n\nOS Build Plan completed successfully\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "OS Build Plan completed successfully",
+                    "jobServerUri": "/rest/os-deployment-servers/40001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/1000001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "SUCCESS_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/40001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "DCA-RACK-02-C7000-03-Enclosure-5"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant OS - ESXi 6.0 Scripted Install",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Run 'ProLiant OS - ESXi 6.0 Scripted Install' build plan (id = 1000001) against 1 server(s)",
+            "name": "ProLiant OS - ESXi 6.0 Scripted Install",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-19T00:06:19.000Z",
+            "modified": "2016-02-19T00:06:19.000Z",
+            "created": "2016-02-18T23:47:45.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/600001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 25,
+                    "jobResultTotalSteps": 25,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant OS - RHEL 7.1 x64 Scripted Install (OSBuildPlanRef:1110001) against server (ServerRef:30001)\n\nStep 1 of 25: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 25: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 25: Run OGFS Script 'Boot'\nBoot method: auto\nConfiguring boot to Service OS: linux64\nRebooting the target server...\n\n\nStep 4 of 25: Run OGFS Script 'Decommission Server'\nThe target server is not agent managed, skipping decommissioning\n\n\nStep 5 of 25: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nMaintenance agent is accessible\n\n\nStep 6 of 25: Run Server Script 'Set Media Source'\nSuccessfully set media source http://10.16.160.5/deployment/rhel71-x64\n\n\nStep 7 of 25:  'Installing Configuration Template RHEL 7.1 x64 en_us Kickstart. Location /tmp/user.ks.cfg'\nStep 8 of 25: Run OGFS Script 'Inject Required Kickstart Settings'\nKickstart file written to disk\nSuccessfully injected required settings\n\n\nStep 9 of 25: Run OGFS Script 'Inject Kickstart Personalization Settings'\nRemoving existing network personalization from the kickstart\nGoing to provision using interface with MAC address 46:18:9C:B0:00:01\nConfiguring boot protocol to: dhcp\nDisabling IPv6\n\n\nStep 10 of 25: Run Server Script 'Create Stub Partition'\nBoot disk partitioned. Stub partition filesystem is on /dev/sda1.\nSuccessfully mounted stub partition filesystem on /mnt/root.\n\n\nStep 11 of 25: Run Server Script 'Copy Boot Media'\nWill copy from http://10.16.160.5/deployment/rhel71-x64\nFound configuration at isolinux/isolinux.cfg\nWill discover media using label linux\nAdding kernel to be copied\nAdding initrd(s) to files to be copied\nCopying isolinux/vmlinuz to /mnt/root\nCopying isolinux/initrd.img to /mnt/root\nSuccessfully copied all boot media\n\n\nStep 12 of 25: Install Zip Package : ProLiant Drivers for RHEL 7.1 x64 - 2015.06.0 'ProLiant Drivers for RHEL 7.1 x64 - 2015.06.0'\nDownloading ProLiant Drivers for RHEL 7.1 x64 - 2015.06.0 (ID: 5310001) to /tmp/dud/PLDrivers-rh7u1-x64-initrd-2015.06.0.zip\n\nStep 13 of 25: Install Zip Package : GRuB Boot Loader x86 'GRuB Boot Loader x86'\nDownloading GRuB Boot Loader x86 (ID: 3510001) to /tmp/grub.zip\n\nStep 14 of 25: Run Server Script 'Deploy Agent'\nDownloaded osprov_ogfs_agent-LINUX-7SERVER-X86_64 to /tmp/opt/opsware/agent/ogfs-agent.zip\n\n\nStep 15 of 25: Run Server Script 'Embed Monitoring SA Agent'\nStep 16 of 25: Run Server Script 'Embed files initrd'\nAdding to intrd /mnt/root/localrds/000_safiles : source /tmp/user.ks.cfg -> destination: /\nAdding to intrd /mnt/root/localrds/000_safiles : source /tmp/opt/opsware/agent -> destination: /opt/opsware/\nAdding to intrd /mnt/root/localrds/000_safiles : source /tmp/dud/. -> destination: /\n\n\nStep 17 of 25: Run Server Script 'Install bootloader for RedHat Enterprise Linux 7 Server'\nCopying Boot Loader files to runtime location\nPreparing Boot Loader config script\nInstalling Boot Loader\nFound kernel arguments: geoloc=0  hpsa_monitoring_agent=1\n\n\nStep 18 of 25: Run OGFS Script 'Reboot'\nInitiating reboot now...\n\n\nStep 19 of 25: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nMaintenance agent is accessible\n\n\nStep 20 of 25: Run OGFS Script 'Monitor Installation'\nMonitoring /opsw/.Server.ID/30001/files/root/tmp/packaging.log log file\nWaiting for /opsw/.Server.ID/30001/files/root/tmp/packaging.log to appear\nFound the log file\nHere are the last 50 lines of the log:\n00:11:57,260 INFO packaging: glibc-2.17-78.el7.i686 (528/547)\n\n00:11:57,260 INFO packaging: libICE-1.0.8-7.el7.i686 (529/547)\n\n00:11:57,260 INFO packaging: freetype-2.4.11-9.el7.i686 (530/547)\n\n00:11:57,260 INFO packaging: libXau-1.0.8-2.1.el7.i686 (531/547)\n\n00:11:57,260 INFO packaging: libxcb-1.9-5.el7.i686 (532/547)\n\n00:11:57,260 INFO packaging: libX11-1.6.0-2.1.el7.i686 (533/547)\n\n00:11:57,261 INFO packaging: libXext-1.3.2-2.1.el7.i686 (534/547)\n\n00:11:57,261 INFO packaging: libXrender-0.9.8-2.1.el7.i686 (535/547)\n\n00:11:57,261 INFO packaging: libXfixes-5.0.1-2.1.el7.i686 (536/547)\n\n00:11:57,261 INFO packaging: expat-2.1.0-8.el7.i686 (537/547)\n\n00:11:57,261 INFO packaging: libuuid-2.23.2-21.el7.i686 (538/547)\n\n00:11:57,261 INFO packaging: libgcc-4.8.3-9.el7.i686 (539/547)\n\n00:11:57,261 INFO packaging: libstdc++-4.8.3-9.el7.i686 (540/547)\n\n00:11:57,261 INFO packaging: libSM-1.2.1-7.el7.i686 (541/547)\n\n00:11:57,261 INFO packaging: fontconfig-2.10.95-7.el7.i686 (542/547)\n\n00:11:57,261 INFO packaging: libXcursor-1.1.14-2.1.el7.i686 (543/547)\n\n00:11:57,261 INFO packaging: libXrandr-1.4.1-2.1.el7.i686 (544/547)\n\n00:11:57,261 INFO packaging: libXi-1.7.2-2.1.el7.i686 (545/547)\n\n00:11:57,261 INFO packaging: libXinerama-1.1.3-2.1.el7.i686 (546/547)\n\n00:11:57,261 INFO packaging: zlib-1.2.7-13.el7.i686 (547/547)\n\n00:11:57,262 INFO packaging: Failed to install module hpdsahpvsa\n\n00:11:57,262 INFO packaging: Failed to install module hpdsahpvsa\n\n00:11:57,262 INFO packaging: 2733 blocks\n\n00:11:57,262 INFO packaging: ==== end rpm scriptlet logs ====\n00:11:57,264 DEBUG packaging: kernel versions: ['3.10.0-229.el7.x86_64']\n00:12:01,281 DEBUG packaging: kernel versions: ['3.10.0-229.el7.x86_64']\n00:12:01,282 INFO packaging: recreating initrd for 3.10.0-229.el7.x86_64\n\nInstallation completed.\n\n\nStep 21 of 25: Run OGFS Script 'Integrate Linux HP SA Agent'\nIntegrating the HP SA agent for Red Hat Enterprise Linux Server 7 X86_64\n\nSub Step: Run Server Script 'Deploy Agent'\nDownloaded opsware-agent-LINUX-7SERVER-X86_64 to /mnt/sysimage/tmp/hpsa_agent_installer\n\nUsing agent gateway(s): [('10.16.160.12', 3001)]\nSuccessfully integrated the HP SA agent.\nThe agent will be installed on the first OS boot.\n\n\nStep 22 of 25: Run OGFS Script 'Reboot'\nInitiating reboot now...\n\n\nStep 23 of 25: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on production OS\nProduction agent is accessible\n\n\nStep 24 of 25: Run Server Script 'Personalize Network Settings of Installed System'\nStep 25 of 25: Run OGFS Script 'Wait for HP SA Agent'\nWaiting for registration of agent running on production OS\nProduction agent is accessible\n\nOS Build Plan completed successfully\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "OS Build Plan completed successfully",
+                    "jobServerUri": "/rest/os-deployment-servers/30001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/1110001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "SUCCESS_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/30001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": null
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant OS - RHEL 7.1 x64 Scripted Install",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Run 'ProLiant OS - RHEL 7.1 x64 Scripted Install' build plan (id = 1110001) against 1 server(s)",
+            "name": "ProLiant OS - RHEL 7.1 x64 Scripted Install",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-19T00:12:09.000Z",
+            "modified": "2016-02-19T00:12:09.000Z",
+            "created": "2016-02-18T23:49:00.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/610001"
+        },
+        {
+            "typeOfJobType": "ILO",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 8,
+                    "jobResultTotalSteps": 8,
+                    "jobResultLogDetails": "Step 1 of 8:Wait for HPSA Agent to start (Job 780001)\nStep 2 of 8:Find iLO management port and IP address (Job 790001)\nStep 3 of 8:Delete iLO automation User if already exists (Job 800001)\nStep 4 of 8:Creation of iLO automation User for registration (Job 810001)\nStep 5 of 8:Validating iLO Server's ManagerConnection attributes\nStep 6 of 8:Accessing iLO service and checking for a valid ILO Server\nStep 7 of 8:Registering iLO service\nStep 8 of 8:Refresh initial device description\n",
+                    "jobResultErrorDetails": null,
+                    "jobMessage": "Registration",
+                    "jobServerUri": null
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-ilos/60001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "osprovuser",
+            "nameOfJobType": "Auto iLO registration for server DCA-RACK-02-C7000-03-Enclosure-3",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Auto iLO registration for server DCA-RACK-02-C7000-03-Enclosure-3",
+            "name": "Auto iLO registration for server DCA-RACK-02-C7000-03-Enclosure-3",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-25T18:43:58.000Z",
+            "modified": "2016-02-25T18:43:58.000Z",
+            "created": "2016-02-25T18:41:58.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/770001"
+        },
+        {
+            "typeOfJobType": "APX",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 2,
+                    "jobResultTotalSteps": 2,
+                    "jobResultLogDetails": "This is APX Add iLO-managed Server\nRegister iLO 10.16.40.147\nStarted iLO registration job (ID=850001)\n. . . . . . .\n\niLO: ILO Service 10.16.40.147 (ID=70001)\nServer: ILOHOST-10.16.40.147 (ID=60001)\nServer State: PRE_UNPROVISIONED\n\nRunning OS Build Plan (ID=840001)...\n",
+                    "jobResultErrorDetails": "ERROR: Server failed to properly boot to maintenance and register with the appliance. Check the Boot to Service OS build plan job log for more details.\n",
+                    "jobMessage": "Boot server to maintenance",
+                    "jobServerUri": "/rest/os-deployment-servers/0"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-apxs/2050001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "Administrator",
+            "nameOfJobType": "Add iLO-managed Server",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Add server (iLO 10.16.40.147)",
+            "name": "Add server (iLO 10.16.40.147)",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-26T18:08:32.000Z",
+            "modified": "2016-02-26T18:08:32.000Z",
+            "created": "2016-02-26T17:45:59.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/840001"
+        },
+        {
+            "typeOfJobType": "ILO",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 3,
+                    "jobResultTotalSteps": 3,
+                    "jobResultLogDetails": "Step 1 of 3:Validating iLO Server's ManagerConnection attributes\nStep 2 of 3:Accessing iLO service and checking for a valid ILO Server\nStep 3 of 3:Registering iLO service\n",
+                    "jobResultErrorDetails": null,
+                    "jobMessage": "Registration",
+                    "jobServerUri": "/rest/os-deployment-servers/60001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-ilos/70001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "Administrator",
+            "nameOfJobType": "Register server for iLO 10.16.40.147",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Register server for iLO 10.16.40.147",
+            "name": "Register server for iLO 10.16.40.147",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-26T17:46:35.000Z",
+            "modified": "2016-02-26T17:46:35.000Z",
+            "created": "2016-02-26T17:46:04.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/850001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 3,
+                    "jobResultTotalSteps": 4,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant HW - Boot Linux Service OS (OSBuildPlanRef:840001) against server (ServerRef:60001)\n\nStep 1 of 4: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 4: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 4: Run OGFS Script 'Boot'\nBoot method: auto\nAgent is unreachable. Powering off server...\nConfiguring boot to Service OS: linux64\nRebooting the target server...\n\n\nStep 4 of 4: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nFailed To wait for the HP SA Agent: The agent did not appear on the network (is not listening on its port).\nAdditional information from boot control:\nhpstartae copyright (c) 2011 hewlett packard - all rights reserved\n/tmp/ae /\nAE-test.xml\nAutomationEngine\nREADME.TXT\nlibcrypto.so\ntar: libcrypto.so: Cannot utime: No such file or directory\nlibcrypto.so.1.0.0\nlibcurl.so\ntar: libcurl.so: Cannot utime: No such file or directory\nlibcurl.so.4\ntar: libcurl.so.4: Cannot utime: No such file or directory\nlibcurl.so.4.2.0\nlibssh2.so\ntar: libssh2.so: Cannot utime: No such file or directory\nlibssh2.so.1\ntar: libssh2.so.1: Cannot utime: No such file or directory\nlibssh2.so.1.0.1\nlibssl.so\ntar: libssl.so: Cannot utime: No such file or directory\nlibssl.so.1.0.0\nlibz.so\ntar: libz.so: Cannot utime: No such file or directory\nlibz.so.1\ntar: libz.so.1: Cannot utime: No such file or directory\nlibz.so.1.2.5\ntar: Exiting with failure status due to previous errors\nping: sendto: Network is unreachable\nNetwork Interface is not up, test IP: 10.16.160.12, ping count: 1\nping: sendto: Network is unreachable\nNetwork Interface is not up, test IP: 10.16.160.12, ping count: 2\nping: sendto: Network is unreachable\nNetwork Interface is not up, test IP: 10.16.160.12, ping count: 3\nping: sendto: Network is unreachable\nNetwork Interface is not up, test IP: 10.16.160.12, ping count: 4\nping: sendto: Network is unreachable\nNetwork Interface is not up, test IP: 10.16.160.12, ping count: 5\nping: sendto: Network is unreachable\nNetwork Interface is not up, test IP: 10.16.160.12, ping count: 6\nping: sendto: Network is unreachable\nNetwork Interface is not up, test IP: 10.16.160.12, ping count: 7\nping: sendto: Network is unreachable\nNetwork Interface is not up, test IP: 10.16.160.12, ping count: 8\nping: sendto: Network is unreachable\nNetwork Interface is not up, test IP: 10.16.160.12, ping count: 9\nping: sendto: Network is unreachable\nNetwork Interface is not up, test IP: 10.16.160.12, ping count: 10\nFailed to download URL: http://127.0.0.1:8081/osprov_ogfs_agent-LINUX-SLES-11-X86_64\nResponse code received: 0\nPossible reason: Couldn't connect to server\nError buffer: Failed to connect to 10.16.160.12: Network is unreachable\nchmod: *: No such file or directory\nHPSA OGFS Agent Setup\n/tmp/post.bat: line 8: ./osprov/ogfs-agent-setup.sh: No such file or directory\nHPSA OGFS Agent Start\n/tmp/post.bat: line 10: ./osprov/ogfs-agent-start.sh: No such file or directory\nScript exec failed: 127, reason:Key has expired\nURI download failed, exiting\nAutomation Engine - version: 1.0.0\n\n/opt/hp/hp-phoenix/scripts/ae.xml: loaded successfully\n\n\nWait for HP SA Agent failed with exit code 120.\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "Wait for HP SA Agent failed with exit code 120.",
+                    "jobServerUri": "/rest/os-deployment-servers/60001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/840001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "FAILURE_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/60001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "ILOHOST-10.16.40.147"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant HW - Boot Linux Service OS",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Run 'ProLiant HW - Boot Linux Service OS' build plan (id = 840001) against 1 server(s)",
+            "name": "ProLiant HW - Boot Linux Service OS",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-26T18:08:30.000Z",
+            "modified": "2016-02-26T18:08:30.000Z",
+            "created": "2016-02-26T17:46:50.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/860001"
+        },
+        {
+            "typeOfJobType": "APX",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 2,
+                    "jobResultTotalSteps": 2,
+                    "jobResultLogDetails": "This is APX Add iLO-managed Server\nRegister iLO 10.16.40.148\nStarted iLO registration job (ID=880001)\n. . . . . . . . .\n\niLO: ILO Service 10.16.40.148 (ID=80001)\nServer: ILOHOST-10.16.40.148 (ID=70001)\nServer State: PRE_UNPROVISIONED\n\nRunning OS Build Plan (ID=840001)...\n",
+                    "jobResultErrorDetails": "ERROR: Server failed to properly boot to maintenance and register with the appliance. Check the Boot to Service OS build plan job log for more details.\n",
+                    "jobMessage": "Boot server to maintenance",
+                    "jobServerUri": "/rest/os-deployment-servers/0"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-apxs/2050001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "Administrator",
+            "nameOfJobType": "Add iLO-managed Server",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Add server (iLO 10.16.40.148)",
+            "name": "Add server (iLO 10.16.40.148)",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-26T18:12:08.000Z",
+            "modified": "2016-02-26T18:12:08.000Z",
+            "created": "2016-02-26T17:50:17.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/870001"
+        },
+        {
+            "typeOfJobType": "ILO",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 3,
+                    "jobResultTotalSteps": 3,
+                    "jobResultLogDetails": "Step 1 of 3:Validating iLO Server's ManagerConnection attributes\nStep 2 of 3:Accessing iLO service and checking for a valid ILO Server\nStep 3 of 3:Registering iLO service\n",
+                    "jobResultErrorDetails": null,
+                    "jobMessage": "Registration",
+                    "jobServerUri": "/rest/os-deployment-servers/70001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-ilos/80001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": null,
+            "jobUserName": "Administrator",
+            "nameOfJobType": "Register server for iLO 10.16.40.148",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Register server for iLO 10.16.40.148",
+            "name": "Register server for iLO 10.16.40.148",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-26T17:51:02.000Z",
+            "modified": "2016-02-26T17:51:02.000Z",
+            "created": "2016-02-26T17:50:20.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/880001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 3,
+                    "jobResultTotalSteps": 4,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant HW - Boot Linux Service OS (OSBuildPlanRef:840001) against server (ServerRef:70001)\n\nStep 1 of 4: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 4: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 4: Run OGFS Script 'Boot'\nBoot method: auto\nAgent is unreachable. Powering off server...\nConfiguring boot to Service OS: linux64\nRebooting the target server...\n\n\nStep 4 of 4: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nFailed To wait for the HP SA Agent: The agent did not appear on the network (is not listening on its port).\n\nWait for HP SA Agent failed with exit code 120.\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "Wait for HP SA Agent failed with exit code 120.",
+                    "jobServerUri": "/rest/os-deployment-servers/70001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/840001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "FAILURE_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/70001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "ILOHOST-10.16.40.148"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant HW - Boot Linux Service OS",
+            "running": "false",
+            "jobProgress": null,
+            "status": "error",
+            "description": "Run 'ProLiant HW - Boot Linux Service OS' build plan (id = 840001) against 1 server(s)",
+            "name": "ProLiant HW - Boot Linux Service OS",
+            "state": "STATUS_FAILURE",
+            "eTag": "2016-02-26T18:11:56.000Z",
+            "modified": "2016-02-26T18:11:56.000Z",
+            "created": "2016-02-26T17:51:17.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/890001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 25,
+                    "jobResultTotalSteps": 25,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant OS - RHEL 7.1 x64 Scripted Install (OSBuildPlanRef:1110001) against server (ServerRef:50001)\n\nStep 1 of 25: Run OGFS Script 'Check iLO Service'\nService active, version ILO4.\n\n\nStep 2 of 25: Run OGFS Script 'Verify Supported Boot Modes'\nInput Parameters: {'secure_boot': 'any', 'optimized': 'any', 'legacy': 'true', 'uefi': 'true'}\n\nThis Build Plan supports all boot modes.\n\nThis server is currently running in LEGACY mode.\n\nThis server is running in a supported boot mode.\n\n\nStep 3 of 25: Run OGFS Script 'Boot'\nBoot method: auto\nThe target server is in MAINTENANCE but not accessible, continuing...\nAgent is unreachable. Powering off server...\nConfiguring boot to Service OS: linux64\nRebooting the target server...\n\n\nStep 4 of 25: Run OGFS Script 'Decommission Server'\nThe target server is not agent managed, skipping decommissioning\n\n\nStep 5 of 25: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nMaintenance agent is accessible\n\n\nStep 6 of 25: Run Server Script 'Set Media Source'\nSuccessfully set media source http://10.16.160.5/deployment/rhel71-x64\n\n\nStep 7 of 25:  'Installing Configuration Template RHEL 7.1 x64 en_us Kickstart. Location /tmp/user.ks.cfg'\nStep 8 of 25: Run OGFS Script 'Inject Required Kickstart Settings'\nKickstart file written to disk\nSuccessfully injected required settings\n\n\nStep 9 of 25: Run OGFS Script 'Inject Kickstart Personalization Settings'\nRemoving existing network personalization from the kickstart\nGoing to provision using interface with MAC address 46:18:9C:B0:00:0B\nConfiguring boot protocol to: dhcp\nDisabling IPv6\n\n\nStep 10 of 25: Run Server Script 'Create Stub Partition'\nBoot disk partitioned. Stub partition filesystem is on /dev/sda1.\nSuccessfully mounted stub partition filesystem on /mnt/root.\n\n\nStep 11 of 25: Run Server Script 'Copy Boot Media'\nWill copy from http://10.16.160.5/deployment/rhel71-x64\nFound configuration at isolinux/isolinux.cfg\nWill discover media using label linux\nAdding kernel to be copied\nAdding initrd(s) to files to be copied\nCopying isolinux/vmlinuz to /mnt/root\nCopying isolinux/initrd.img to /mnt/root\nSuccessfully copied all boot media\n\n\nStep 12 of 25: Install Zip Package : ProLiant Drivers for RHEL 7.1 x64 - 2015.06.0 'ProLiant Drivers for RHEL 7.1 x64 - 2015.06.0'\nDownloading ProLiant Drivers for RHEL 7.1 x64 - 2015.06.0 (ID: 5310001) to /tmp/dud/PLDrivers-rh7u1-x64-initrd-2015.06.0.zip\n\nStep 13 of 25: Install Zip Package : GRuB Boot Loader x86 'GRuB Boot Loader x86'\nDownloading GRuB Boot Loader x86 (ID: 3510001) to /tmp/grub.zip\n\nStep 14 of 25: Run Server Script 'Deploy Agent'\nDownloaded osprov_ogfs_agent-LINUX-7SERVER-X86_64 to /tmp/opt/opsware/agent/ogfs-agent.zip\n\n\nStep 15 of 25: Run Server Script 'Embed Monitoring SA Agent'\nStep 16 of 25: Run Server Script 'Embed files initrd'\nAdding to intrd /mnt/root/localrds/000_safiles : source /tmp/user.ks.cfg -> destination: /\nAdding to intrd /mnt/root/localrds/000_safiles : source /tmp/opt/opsware/agent -> destination: /opt/opsware/\nAdding to intrd /mnt/root/localrds/000_safiles : source /tmp/dud/. -> destination: /\n\n\nStep 17 of 25: Run Server Script 'Install bootloader for RedHat Enterprise Linux 7 Server'\nCopying Boot Loader files to runtime location\nPreparing Boot Loader config script\nInstalling Boot Loader\nFound kernel arguments: geoloc=0  hpsa_monitoring_agent=1\n\n\nStep 18 of 25: Run OGFS Script 'Reboot'\nInitiating reboot now...\n\n\nStep 19 of 25: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on maintenance OS\nMaintenance agent is accessible\n\n\nStep 20 of 25: Run OGFS Script 'Monitor Installation'\nMonitoring /opsw/.Server.ID/50001/files/root/tmp/packaging.log log file\nWaiting for /opsw/.Server.ID/50001/files/root/tmp/packaging.log to appear\nFound the log file\nHere are the last 50 lines of the log:\n01:25:23,967 INFO packaging: glibc-2.17-78.el7.i686 (528/547)\n\n01:25:23,967 INFO packaging: libICE-1.0.8-7.el7.i686 (529/547)\n\n01:25:23,967 INFO packaging: freetype-2.4.11-9.el7.i686 (530/547)\n\n01:25:23,967 INFO packaging: libXau-1.0.8-2.1.el7.i686 (531/547)\n\n01:25:23,967 INFO packaging: libxcb-1.9-5.el7.i686 (532/547)\n\n01:25:23,967 INFO packaging: libX11-1.6.0-2.1.el7.i686 (533/547)\n\n01:25:23,967 INFO packaging: libXext-1.3.2-2.1.el7.i686 (534/547)\n\n01:25:23,967 INFO packaging: libXrender-0.9.8-2.1.el7.i686 (535/547)\n\n01:25:23,968 INFO packaging: libXfixes-5.0.1-2.1.el7.i686 (536/547)\n\n01:25:23,968 INFO packaging: expat-2.1.0-8.el7.i686 (537/547)\n\n01:25:23,968 INFO packaging: libuuid-2.23.2-21.el7.i686 (538/547)\n\n01:25:23,968 INFO packaging: libgcc-4.8.3-9.el7.i686 (539/547)\n\n01:25:23,968 INFO packaging: libstdc++-4.8.3-9.el7.i686 (540/547)\n\n01:25:23,968 INFO packaging: libSM-1.2.1-7.el7.i686 (541/547)\n\n01:25:23,968 INFO packaging: fontconfig-2.10.95-7.el7.i686 (542/547)\n\n01:25:23,968 INFO packaging: libXcursor-1.1.14-2.1.el7.i686 (543/547)\n\n01:25:23,968 INFO packaging: libXrandr-1.4.1-2.1.el7.i686 (544/547)\n\n01:25:23,968 INFO packaging: libXi-1.7.2-2.1.el7.i686 (545/547)\n\n01:25:23,968 INFO packaging: libXinerama-1.1.3-2.1.el7.i686 (546/547)\n\n01:25:23,969 INFO packaging: zlib-1.2.7-13.el7.i686 (547/547)\n\n01:25:23,969 INFO packaging: Failed to install module hpdsahpvsa\n\n01:25:23,969 INFO packaging: Failed to install module hpdsahpvsa\n\n01:25:23,969 INFO packaging: 2733 blocks\n\n01:25:23,969 INFO packaging: ==== end rpm scriptlet logs ====\n01:25:23,971 DEBUG packaging: kernel versions: ['3.10.0-229.el7.x86_64']\n01:25:27,905 DEBUG packaging: kernel versions: ['3.10.0-229.el7.x86_64']\n01:25:27,905 INFO packaging: recreating initrd for 3.10.0-229.el7.x86_64\n\nInstallation completed.\n\n\nStep 21 of 25: Run OGFS Script 'Integrate Linux HP SA Agent'\nIntegrating the HP SA agent for Red Hat Enterprise Linux Server 7 X86_64\n\nSub Step: Run Server Script 'Deploy Agent'\nDownloaded opsware-agent-LINUX-7SERVER-X86_64 to /mnt/sysimage/tmp/hpsa_agent_installer\n\nUsing agent gateway(s): [('10.16.160.12', 3001)]\nSuccessfully integrated the HP SA agent.\nThe agent will be installed on the first OS boot.\n\n\nStep 22 of 25: Run OGFS Script 'Reboot'\nInitiating reboot now...\n\n\nStep 23 of 25: Run OGFS Script 'Wait for HP SA Agent'\nSleeping for 3 minutes before checking for agent\nWaiting for registration of agent running on production OS\nProduction agent is accessible\n\n\nStep 24 of 25: Run Server Script 'Personalize Network Settings of Installed System'\nThe HPSA agent will be stopped and started again after network personalization is done\n\nWarning: lost connection to the agent while running the script.\n\nStep 25 of 25: Run OGFS Script 'Wait for HP SA Agent'\nWaiting for registration of agent running on production OS\nProduction agent is accessible\n\nOS Build Plan completed successfully\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "OS Build Plan completed successfully",
+                    "jobServerUri": "/rest/os-deployment-servers/50001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/1110001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "SUCCESS_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/50001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "demo-web1"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant OS - RHEL 7.1 x64 Scripted Install",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Run 'ProLiant OS - RHEL 7.1 x64 Scripted Install' build plan (id = 1110001) against 1 server(s)",
+            "name": "ProLiant OS - RHEL 7.1 x64 Scripted Install",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-27T01:27:12.000Z",
+            "modified": "2016-02-27T01:27:12.000Z",
+            "created": "2016-02-27T00:59:09.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/910001"
+        },
+        {
+            "typeOfJobType": "BP",
+            "jobResult": [
+                {
+                    "jobResultCompletedSteps": 4,
+                    "jobResultTotalSteps": 6,
+                    "jobResultLogDetails": "Running OS Build Plan ProLiant SW - Post Install Network Personalization (OSBuildPlanRef:1070001) against server (ServerRef:50001)\n\nStep 1 of 6: Run OGFS Script 'Wait for HP SA Agent'\nWaiting for registration of agent running on production OS\nProduction agent is accessible\n\n\nStep 2 of 6: Run Server Script 'Personalize Network Settings of Installed System'\nThe HPSA agent will be stopped and started again after network personalization is done\n\nWarning: lost connection to the agent while running the script.\n\nStep 3 of 6: Run OGFS Script 'Wait for HP SA Agent'\nWaiting for registration of agent running on production OS\nProduction agent is accessible\n\n\nStep 4 of 6: Run OGFS Script 'Skip steps based on Custom Attribute'\nWill try to forward build plan execution to step +3\n\n\n\nOS Build Plan completed successfully\n",
+                    "jobResultErrorDetails": "",
+                    "jobMessage": "OS Build Plan completed successfully",
+                    "jobServerUri": "/rest/os-deployment-servers/50001"
+                }
+            ],
+            "uriOfJobType": "/rest/os-deployment-build-plans/1070001",
+            "jobDeviceGroups": [],
+            "jobServerInfo": [
+                {
+                    "deviceType": "os-deployment-servers",
+                    "jobStatusOnServer": "SUCCESS_STATUS",
+                    "jobServerUri": "/rest/os-deployment-servers/50001",
+                    "jobServerInclusionStatus": "INCLUDED_INCLUSION_STATUS",
+                    "serverName": "demo-web1"
+                }
+            ],
+            "jobUserName": "Administrator",
+            "nameOfJobType": "ProLiant SW - Post Install Network Personalization",
+            "running": "false",
+            "jobProgress": null,
+            "status": "ok",
+            "description": "Run 'ProLiant SW - Post Install Network Personalization' build plan (id = 1070001) against 1 server(s)",
+            "name": "ProLiant SW - Post Install Network Personalization",
+            "state": "STATUS_SUCCESS",
+            "eTag": "2016-02-27T01:30:48.000Z",
+            "modified": "2016-02-27T01:30:48.000Z",
+            "created": "2016-02-27T01:28:53.000Z",
+            "category": "os-deployment-jobs",
+            "uri": "/rest/os-deployment-jobs/930001"
+        }
+    ],
+    "nextPageUri": null,
+    "start": 0,
+    "prevPageUri": null,
+    "total": 28,
+    "count": 28,
+    "eTag": null,
+    "modified": null,
+    "created": null,
+    "category": null,
+    "uri": null
+}
