@@ -1,0 +1,112 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ServiceRoot",
+    "@odata.id": "/redfish/v1/",
+    "@odata.type": "#ServiceRoot.1.0.0.ServiceRoot",
+    "AccountService": {
+        "@odata.id": "/rest/v1/AccountService"
+    },
+    "Chassis": {
+        "@odata.id": "/rest/v1/Chassis"
+    },
+    "EventService": {
+        "@odata.id": "/rest/v1/EventService"
+    },
+    "Id": "v1",
+    "JsonSchemas": {
+        "@odata.id": "/rest/v1/Schemas"
+    },
+    "Managers": {
+        "@odata.id": "/rest/v1/Managers"
+    },
+    "Name": "HP RESTful Root Service",
+    "Oem": {
+        "Hp": {
+            "@odata.type": "#HpiLOServiceExt.1.0.0.HpiLOServiceExt",
+            "Manager": [
+                {
+                    "DefaultLanguage": "en",
+                    "FQDN": "undefined.hpdia.local",
+                    "HostName": "undefined",
+                    "Languages": [
+                        {
+                            "Language": "en",
+                            "TranslationName": "English",
+                            "Version": "2.30"
+                        }
+                    ],
+                    "ManagerFirmwareVersion": "2.30",
+                    "ManagerType": "iLO 4"
+                }
+            ],
+            "Sessions": {
+                "CertCommonName": "undefined.hpdia.local",
+                "KerberosEnabled": false,
+                "LDAPAuthLicenced": false,
+                "LDAPEnabled": false,
+                "LocalLoginEnabled": true,
+                "LoginFailureDelay": 0,
+                "LoginHint": {
+                    "Hint": "POST to /Sessions to login using the following JSON object:",
+                    "HintPOSTData": {
+                        "Password": "password",
+                        "UserName": "username"
+                    }
+                },
+                "SecurityOverride": false,
+                "ServerName": "DCA-MGMT-02.hpdia.local"
+            },
+            "Type": "HpiLOServiceExt.1.0.0",
+            "links": {
+                "ResourceDirectory": {
+                    "href": "/rest/v1/ResourceDirectory"
+                }
+            }
+        }
+    },
+    "RedfishVersion": "1.0.0",
+    "Registries": {
+        "@odata.id": "/rest/v1/Registries"
+    },
+    "ServiceVersion": "1.0.0",
+    "SessionService": {
+        "@odata.id": "/rest/v1/SessionService"
+    },
+    "Systems": {
+        "@odata.id": "/rest/v1/Systems"
+    },
+    "Time": "2016-02-26T15:54:01Z",
+    "Type": "ServiceRoot.1.0.0",
+    "UUID": "9d39227c-7da4-58d6-9a8c-f6d86bd06ae6",
+    "links": {
+        "AccountService": {
+            "href": "/rest/v1/AccountService"
+        },
+        "Chassis": {
+            "href": "/rest/v1/Chassis"
+        },
+        "EventService": {
+            "href": "/rest/v1/EventService"
+        },
+        "Managers": {
+            "href": "/rest/v1/Managers"
+        },
+        "Registries": {
+            "href": "/rest/v1/Registries"
+        },
+        "Schemas": {
+            "href": "/rest/v1/Schemas"
+        },
+        "SessionService": {
+            "href": "/rest/v1/SessionService"
+        },
+        "Sessions": {
+            "href": "/rest/v1/SessionService/Sessions"
+        },
+        "Systems": {
+            "href": "/rest/v1/Systems"
+        },
+        "self": {
+            "href": "/rest/v1"
+        }
+    }
+}
