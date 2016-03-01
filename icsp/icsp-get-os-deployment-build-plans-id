@@ -1,0 +1,273 @@
+{
+    "type": "OSDBuildPlan",
+    "isCustomerContent": false,
+    "os": "OS - Red Hat Enterprise Linux Server 7",
+    "buildPlanCustAttrs": [],
+    "buildPlanItems": [
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "",
+            "uri": "/rest/os-deployment-ogfs-scripts/1260001",
+            "name": "Check iLO Service",
+            "id": "1260001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "",
+            "uri": "/rest/os-deployment-ogfs-scripts/1760001",
+            "name": "Verify Supported Boot Modes",
+            "id": "1760001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "--serviceOS=linux64",
+            "uri": "/rest/os-deployment-ogfs-scripts/560001",
+            "name": "Boot",
+            "id": "560001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "",
+            "uri": "/rest/os-deployment-ogfs-scripts/1010001",
+            "name": "Decommission Server",
+            "id": "1010001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "--maintenance --atLeast=3 --atMost=20",
+            "uri": "/rest/os-deployment-ogfs-scripts/400001",
+            "name": "Wait for HP SA Agent",
+            "id": "400001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "PY2",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "@__OPSW-Media-LinURI@/rhel70-x64",
+            "uri": "/rest/os-deployment-server-scripts/970001",
+            "name": "Set Media Source",
+            "id": "970001",
+            "type": "os-deployment-server-scripts"
+        },
+        {
+            "codeType": "Config File",
+            "cfgFileDownload": true,
+            "cfgFileOverwrite": true,
+            "parameters": "/tmp/user.ks.cfg",
+            "uri": "/rest/os-deployment-install-cfgfiles/2310001",
+            "name": "RHEL 7.0 x64 en_us Kickstart",
+            "id": "2310001",
+            "type": "os-deployment-install-cfgfiles"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "Red Hat Enterprise Linux Server 7 X86_64",
+            "uri": "/rest/os-deployment-ogfs-scripts/800001",
+            "name": "Inject Required Kickstart Settings",
+            "id": "800001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "",
+            "uri": "/rest/os-deployment-ogfs-scripts/1310001",
+            "name": "Inject Kickstart Personalization Settings",
+            "id": "1310001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "SH",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "",
+            "uri": "/rest/os-deployment-server-scripts/1170001",
+            "name": "Create Stub Partition",
+            "id": "1170001",
+            "type": "os-deployment-server-scripts"
+        },
+        {
+            "codeType": "SH",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "",
+            "uri": "/rest/os-deployment-server-scripts/660001",
+            "name": "Copy Boot Media",
+            "id": "660001",
+            "type": "os-deployment-server-scripts"
+        },
+        {
+            "codeType": "Install ZIP",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "",
+            "uri": "/rest/os-deployment-install-zips/5340001",
+            "name": "ProLiant Drivers for RHEL 7.0 x64 - 2015.06.0",
+            "id": "5340001",
+            "type": "os-deployment-install-zips"
+        },
+        {
+            "codeType": "Install ZIP",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "",
+            "uri": "/rest/os-deployment-install-zips/3510001",
+            "name": "GRuB Boot Loader x86",
+            "id": "3510001",
+            "type": "os-deployment-install-zips"
+        },
+        {
+            "codeType": "SH",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "-d /tmp/opt/opsware/agent/ogfs-agent.zip -p \"Red Hat Enterprise Linux Server 7 X86_64\"",
+            "uri": "/rest/os-deployment-server-scripts/870001",
+            "name": "Deploy Agent",
+            "id": "870001",
+            "type": "os-deployment-server-scripts"
+        },
+        {
+            "codeType": "PY2",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "/tmp/opt/opsware/agent/ogfs-agent.zip",
+            "uri": "/rest/os-deployment-server-scripts/550001",
+            "name": "Embed Monitoring SA Agent",
+            "id": "550001",
+            "type": "os-deployment-server-scripts"
+        },
+        {
+            "codeType": "SH",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "-s /tmp/user.ks.cfg:/  -s /tmp/opt/opsware/agent:/opt/opsware/ -s /tmp/dud/.:/",
+            "uri": "/rest/os-deployment-server-scripts/1120001",
+            "name": "Embed files initrd",
+            "id": "1120001",
+            "type": "os-deployment-server-scripts"
+        },
+        {
+            "codeType": "SH",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "--kernel_arguments=\"geoloc=0 @kernel_arguments@\"",
+            "uri": "/rest/os-deployment-server-scripts/740001",
+            "name": "Install bootloader for RedHat Enterprise Linux 7 Server",
+            "id": "740001",
+            "type": "os-deployment-server-scripts"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "",
+            "uri": "/rest/os-deployment-ogfs-scripts/1330001",
+            "name": "Reboot",
+            "id": "1330001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "--maintenance --atLeast=3 --atMost=20",
+            "uri": "/rest/os-deployment-ogfs-scripts/400001",
+            "name": "Wait for HP SA Agent",
+            "id": "400001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "tmp/anaconda.log",
+            "uri": "/rest/os-deployment-ogfs-scripts/370001",
+            "name": "Monitor Installation",
+            "id": "370001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "",
+            "uri": "/rest/os-deployment-ogfs-scripts/990001",
+            "name": "Integrate Linux HP SA Agent",
+            "id": "990001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "",
+            "uri": "/rest/os-deployment-ogfs-scripts/1330001",
+            "name": "Reboot",
+            "id": "1330001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "--production --atLeast=3 --atMost=30",
+            "uri": "/rest/os-deployment-ogfs-scripts/400001",
+            "name": "Wait for HP SA Agent",
+            "id": "400001",
+            "type": "os-deployment-ogfs-scripts"
+        },
+        {
+            "codeType": "PY2",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "",
+            "uri": "/rest/os-deployment-server-scripts/1290001",
+            "name": "Personalize Network Settings of Installed System",
+            "id": "1290001",
+            "type": "os-deployment-server-scripts"
+        },
+        {
+            "codeType": "OGFS",
+            "cfgFileDownload": false,
+            "cfgFileOverwrite": false,
+            "parameters": "--production",
+            "uri": "/rest/os-deployment-ogfs-scripts/400001",
+            "name": "Wait for HP SA Agent",
+            "id": "400001",
+            "type": "os-deployment-ogfs-scripts"
+        }
+    ],
+    "modifiedBy": "detuser",
+    "createdBy": "opsware",
+    "buildPlanHistory": [],
+    "buildPlanStepType": null,
+    "arch": "x64",
+    "lifeCycle": "AVAILABLE",
+    "description": "Performs a scripted install of Red Hat Enterprise Linux 7.0 using a generic kickstart file.\n(C) Copyright 2014, 2015 Hewlett-Packard Development Company, L.P.\n\nRequirements:\n* HP ProLiant server with iLO\n* IC server provisioning Media Server must contain the OS distribution\n\nRequired Custom Attribute:  None\n\nOptional Custom Attributes:\n* encrypted_root_password (must be encrypted)\n* boot_disk\n* kernel_arguments",
+    "status": "",
+    "name": "ProLiant OS - RHEL 7.0 x64 Scripted Install",
+    "state": "",
+    "eTag": "2015-08-04T07:31:10.000Z",
+    "modified": "2015-08-04T07:31:10.000Z",
+    "created": "2015-08-04T07:31:09.000Z",
+    "category": "os-deployment-build-plans",
+    "uri": "/rest/os-deployment-build-plans/700001"
+}
