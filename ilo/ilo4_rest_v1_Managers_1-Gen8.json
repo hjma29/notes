@@ -1,0 +1,79 @@
+{
+    "AvailableActions": [
+        {
+            "Action": "Reset"
+        }
+    ],
+    "Description": "Manager View",
+    "Firmware": {
+        "Current": {
+            "VersionString": "iLO 4 v2.03"
+        }
+    },
+    "Model": "iLO 4",
+    "Name": "Manager",
+    "Oem": {
+        "Hp": {
+            "Firmware": {
+                "Current": {
+                    "Date": "Nov 07 2014",
+                    "DebugBuild": false,
+                    "MajorVersion": 2,
+                    "MinorVersion": 3,
+                    "Time": "",
+                    "VersionString": "iLO 4 v2.03"
+                }
+            },
+            "License": {
+                "LicenseKey": "356W5-XJTSM-N2PP6-TS44D-53MQH",
+                "LicenseString": "iLO 4 Advanced HP limited-distribution date-restricted test",
+                "LicenseType": "Internal"
+            },
+            "Type": "HpiLO.0.9.5",
+            "links": {
+                "DateTimeService": {
+                    "href": "/rest/v1/Managers/1/DateTime"
+                },
+                "EmbeddedMediaService": {
+                    "href": "/rest/v1/Managers/1/EmbeddedMedia"
+                },
+                "FederationDispatch": {
+                    "extref": "/dispatch"
+                },
+                "FederationGroups": {
+                    "href": "/rest/v1/Managers/1/FederationGroups"
+                },
+                "FederationPeers": {
+                    "href": "/rest/v1/Managers/1/FederationPeers"
+                },
+                "LicenseService": {
+                    "href": "/rest/v1/Managers/1/LicenseService"
+                },
+                "UpdateService": {
+                    "href": "/rest/v1/Managers/1/UpdateService"
+                }
+            }
+        }
+    },
+    "Type": "Manager.0.9.5",
+    "UUID": "34383137-3630-4D32-3234-353130323336",
+    "links": {
+        "EthernetNICs": {
+            "href": "/rest/v1/Managers/1/NICs"
+        },
+        "ManagerForServers": [
+            {
+                "href": "/rest/v1/Systems/1"
+            }
+        ],
+        "NetworkService": {
+            "href": "/rest/v1/Managers/1/NetworkService"
+        },
+        "VirtualMedia": {
+            "href": "/rest/v1/Managers/1/VirtualMedia"
+        },
+        "self": {
+            "href": "/rest/v1/Managers/1"
+        }
+    }
+}
