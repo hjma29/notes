@@ -1,0 +1,38 @@
+{
+    "type": "OSDServerScript",
+    "runAsSuperUser": true,
+    "serverChanging": true,
+    "codeType": "SH",
+    "displayCodeType": "Unix",
+    "isCustomerContent": false,
+    "allVersions": [
+        {
+            "versionLabel": "24",
+            "createdBy": "opsware",
+            "createdDate": "2015-08-04T07:30:09.000Z",
+            "usage": "Captures or sets the target server's Smart Array configuration using the hpssascripting utility.\n\nRequired Parameters:\nTo capture: -c output_filename (-internal | external) (-nofail)\nTo set: -i input_filename  (-internal | external) (-reset) (-nofail)\n-nofail is indicated if the script should not fail if a Smart Array controller is not found.\n\nCustom Attribute: None",
+            "current": true
+        }
+    ],
+    "currentVersionChangedBy": "opsware",
+    "currentVersionChangedDate": "2015-08-04T07:30:09.000Z",
+    "version": {
+        "versionLabel": "24",
+        "createdBy": "opsware",
+        "createdDate": "2015-08-04T07:30:09.000Z",
+        "usage": "Captures or sets the target server's Smart Array configuration using the hpssascripting utility.\n\nRequired Parameters:\nTo capture: -c output_filename (-internal | external) (-nofail)\nTo set: -i input_filename  (-internal | external) (-reset) (-nofail)\n-nofail is indicated if the script should not fail if a Smart Array controller is not found.\n\nCustom Attribute: None",
+        "current": true
+    },
+    "source": "#!/bin/sh\n\n# (C) Copyright 2012-2015 Hewlett-Packard Development Company, L.P.\n\n# ======================================================================\n# Reads/Writes HP Smart Array configuration\n#\n# Capture parameters: -c output.ini [-internal | -external] [-nofail]\n# Deploy parameters: -i input.ini [-internal | -external] [-reset] [-nofail]\n# ======================================================================\n\nUSAGE=\"usage: $(basename $0) {-c|-i} cfg.ini [-options] [-nofail]\"\n\n# expected location of the installed HP HPSSACLI utilities\nDIR=\"/tmp/sstk/hpssacli\"\nHPSSACLI=\"${DIR}/hpssacli\"\nHPSSASCRIPTING=\"${DIR}/hpssascripting\"\n\n# In the PXE-booted Linux service OS, the \"tr\" command\n# is in a non-standard directory.  Set PATH for \"tr\".\nexport PATH=${PATH}:/opt/opsware/agent/osprov/bin/x86\n\n# Required libraries for HP SSACLI utilities\nexport LD_LIBRARY_PATH=\"$DIR\"\n\n# for each HPSSA utility:\n# - verify existence\n# - ensure executable\nfor UTIL in \"$HPSSACLI\" \"$HPSSASCRIPTING\"\ndo\n    # verify Existence\n    if [ ! -e \"$UTIL\" ]; then\n\techo \"$UTIL can not be found\" 1>&2\n\texit 1\n    fi\n    # ensure utility has eXecute permission\n    [ -x \"$UTIL\" ] || chmod +x \"$UTIL\"\ndone\n\n# specify scripting mode: -c (capture) | -i (input)\nMODE=${1:?$USAGE}\nshift\n\n# specify full path for configuration filename on target system\nCFG_FILE=${1:?$USAGE}\nshift\n\n# specify full path for error log file on target system\nERR_FILE=\"$DIR/error.log\"\n\n# validate supported mode\nif [ \"$MODE\" != \"-c\" ] && [ \"$MODE\" != \"-i\" ]; then\n    echo $USAGE 1>&2\n    exit 1\nfi\n\n# Parse additional args\nwhile [ \"$1\" != \"\" ] ; do\n    case $1 in\n    -internal|-external)\n        OPT3=$1\n\t;;\n    -reset)\n        OPT4=$1\n        ;;\n    -nofail)\n        NOFAIL=true\n        ;;\n     *)\n        echo $USAGE 1>&2\n        exit 1\n     esac\n     shift\ndone\n\n# Check for presence of controller we can reset.\nif ! $HPSSACLI controller all show > /dev/null ; then\n    echo \"No controller found. Exiting..\"\n    #No controller was found now check to see if we need to\n    #signal an error\n    if [ \"$NOFAIL\" == \"\" ]; then\n\t# nofail wasn't set, so fail\n\texit 1\n    else\n\t# nofail was set, so we can quit but signal success.\n\texit 0\n    fi\nfi\n\n# a logical drive with OS Status of LOCKED can't be reset\n# unmount logical drives to avoid error 3036 in use by OS\n\n# Run the unmount from the osprov lib.\nPYTHONPATH=/opt/opsware/pylibs2/ /opt/opsware/agent/bin/python -c \"from osprov.diskmgr.diskmanager import DiskManager; dm = DiskManager(); dm.disable_automount(); dm.unmountDisks(skipUsb=True)\"\n\n# also force unmount, to ensure everything is unmounted\nDEVS=`($HPSSACLI controller all show config detail | grep 'Mount Points' | sed -e 's/.*Mount Points:\\(.*\\)/\\1/' | tr , '\\012' | cut -d' ' -f2) 2>/dev/null`\n[ -n \"$DEVS\"  -a \"$DEVS\" != \"None\" ] && umount -v $DEVS 2>/dev/null\n\n# remove any leftover error log file; don't want old errors\nrm -f \"$ERR_FILE\"\n\n# run utility\n\"$HPSSASCRIPTING\" $MODE \"$CFG_FILE\" $OPT3 $OPT4 -e \"$ERR_FILE\"\nrc=$?\n\ncase $rc in\n   0 )\n      echo \"$HPSSASCRIPTING successful\";;\n   * )\n      # output error log on stderr\n      [ -e \"$ERR_FILE\" ] && cat \"$ERR_FILE\" 1>&2\n      echo \"$HPSSASCRIPTING failed ($rc)\" 1>&2;;\nesac\nexit $rc",
+    "description": "Captures or sets the target server's Smart Array configuration using the hpssascripting utility.\n\nRequired Parameters:\nTo capture: -c output_filename (-internal | external) (-nofail)\nTo set: -i input_filename  (-internal | external) (-reset) (-nofail)\n-nofail is indicated if the script should not fail if a Smart Array controller is not found.\n\nCustom Attribute: None",
+    "status": null,
+    "name": "Manage Smart Array Configuration",
+    "state": null,
+    "eTag": "2015-08-04T07:30:09.000Z",
+    "modified": "2015-08-04T07:30:09.000Z",
+    "created": "2015-08-04T07:30:08.000Z",
+    "category": "os-deployment-server-scripts",
+    "uri": "/rest/os-deployment-server-scripts/1710001"
+}
+
+
