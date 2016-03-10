@@ -1,0 +1,34 @@
+{
+    "type": "NetworkCollectionV3",
+    "members": [
+        {
+            "type": "ethernet-networkV3",
+            "smartLink": true,
+            "ethernetNetworkType": "Tunnel",
+            "vlanId": 0,
+            "purpose": "General",
+            "connectionTemplateUri": "/rest/connection-templates/ff98435d-1f38-4183-b607-c6460a57c978",
+            "fabricUri": "/rest/fabrics/62484ade-7c2f-4586-a401-6de73da1ce7d",
+            "privateNetwork": false,
+            "description": null,
+            "status": "OK",
+            "name": "vc-tunnel-net-A",
+            "state": "Active",
+            "eTag": "70377939-d230-42a7-87e6-8f6c9e405a7d",
+            "modified": "2016-02-18T07:21:27.840Z",
+            "created": "2016-02-18T07:21:27.837Z",
+            "category": "ethernet-networks",
+            "uri": "/rest/ethernet-networks/fb1f4430-f2ed-431f-8aa6-47bcbb8c440e"
+        }
+    ],
+    "nextPageUri": null,
+    "start": 0,
+    "prevPageUri": null,
+    "total": 1,
+    "count": 1,
+    "eTag": null,
+    "modified": null,
+    "created": null,
+    "category": "ethernet-networks",
+    "uri": "/rest/ethernet-networks?start=0&count=1"
+}

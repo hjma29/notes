@@ -1,0 +1,106 @@
+{
+    "type": "EnclosureGroupListV200",
+    "members": [
+        {
+            "type": "EnclosureGroupV200",
+            "uri": "/rest/enclosure-groups/3480212b-09ce-4cb8-95d7-23e33733bd98",
+            "category": "enclosure-groups",
+            "name": "C7000-Group-1",
+            "created": "2016-02-18T05:46:55.430Z",
+            "modified": "2016-02-18T05:46:55.482Z",
+            "eTag": "2016-02-18T05:46:55.482Z",
+            "status": "OK",
+            "state": "Normal",
+            "enclosureTypeUri": "/rest/enclosure-types/c7000",
+            "stackingMode": "Enclosure",
+            "portMappingCount": 8,
+            "portMappings": [
+                {
+                    "midplanePort": 1,
+                    "interconnectBay": 1
+                },
+                {
+                    "midplanePort": 2,
+                    "interconnectBay": 2
+                },
+                {
+                    "midplanePort": 3,
+                    "interconnectBay": 3
+                },
+                {
+                    "midplanePort": 4,
+                    "interconnectBay": 4
+                },
+                {
+                    "midplanePort": 5,
+                    "interconnectBay": 5
+                },
+                {
+                    "midplanePort": 6,
+                    "interconnectBay": 6
+                },
+                {
+                    "midplanePort": 7,
+                    "interconnectBay": 7
+                },
+                {
+                    "midplanePort": 8,
+                    "interconnectBay": 8
+                }
+            ],
+            "interconnectBayMappingCount": 8,
+            "interconnectBayMappings": [
+                {
+                    "interconnectBay": 1,
+                    "logicalInterconnectGroupUri": "/rest/logical-interconnect-groups/7cf68a44-5984-4d16-a072-0fc83ddfe267"
+                },
+                {
+                    "interconnectBay": 2,
+                    "logicalInterconnectGroupUri": "/rest/logical-interconnect-groups/7cf68a44-5984-4d16-a072-0fc83ddfe267"
+                },
+                {
+                    "interconnectBay": 3,
+                    "logicalInterconnectGroupUri": null
+                },
+                {
+                    "interconnectBay": 4,
+                    "logicalInterconnectGroupUri": null
+                },
+                {
+                    "interconnectBay": 5,
+                    "logicalInterconnectGroupUri": null
+                },
+                {
+                    "interconnectBay": 6,
+                    "logicalInterconnectGroupUri": null
+                },
+                {
+                    "interconnectBay": 7,
+                    "logicalInterconnectGroupUri": null
+                },
+                {
+                    "interconnectBay": 8,
+                    "logicalInterconnectGroupUri": null
+                }
+            ],
+            "ipAddressingMode": "External",
+            "ipRangeUris": [],
+            "powerMode": null,
+            "description": null,
+            "enclosureCount": 1,
+            "associatedLogicalInterconnectGroups": [
+                "/rest/logical-interconnect-groups/7cf68a44-5984-4d16-a072-0fc83ddfe267"
+            ]
+        }
+    ],
+    "start": 0,
+    "nextPageUri": null,
+    "prevPageUri": null,
+    "total": 1,
+    "count": 1,
+    "created": "2016-03-02T20:30:46.354Z",
+    "eTag": "2016-03-02T20:30:46.354Z",
+    "modified": "2016-03-02T20:30:46.354Z",
+    "category": "enclosure-groups",
+    "uri": "/rest/enclosure-groups?start=0&count=100"
+}

@@ -1,0 +1,2049 @@
+{
+    "type": "server-hardware-list-4",
+    "category": "server-hardware",
+    "count": 5,
+    "created": "2016-03-01T20:13:46.472Z",
+    "eTag": "1456863226472",
+    "members": [
+        {
+            "type": "server-hardware-4",
+            "name": "C7000-03-Enclosure, bay 8",
+            "state": "NoProfileApplied",
+            "stateReason": "NotApplicable",
+            "assetTag": "\n      ",
+            "category": "server-hardware",
+            "created": "2016-02-18T06:07:11.704Z",
+            "description": null,
+            "eTag": "1456509112555",
+            "formFactor": "FullHeight",
+            "intelligentProvisioningVersion": "1.10.174",
+            "licensingIntent": "OneViewNoiLO",
+            "locationUri": "/rest/enclosures/092S1421PC06",
+            "memoryMb": 65536,
+            "model": "ProLiant BL660c Gen8",
+            "modified": "2016-02-26T17:51:52.555Z",
+            "mpFirmwareVersion": "2.10 Jan 15 2015",
+            "mpHostInfo": {
+                "mpHostName": "ILOTWT22100VJ",
+                "mpIpAddresses": [
+                    {
+                        "address": "10.16.40.148",
+                        "type": "Undefined"
+                    }
+                ]
+            },
+            "mpModel": "iLO4",
+            "mpState": "OK",
+            "partNumber": "679114-B24",
+            "portMap": {
+                "deviceSlots": [
+                    {
+                        "deviceName": "HP FlexFabric 10Gb 2-port 554FLB Adapter",
+                        "deviceNumber": 9,
+                        "location": "Flb",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 16,
+                                "interconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "mac": "AC:16:2D:AB:50:28",
+                                "physicalInterconnectPort": 16,
+                                "physicalInterconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:50:28",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:50:29",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:AC:16:2D:AB:50:29",
+                                        "wwpn": "10:00:AC:16:2D:AB:50:29"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:50:2A",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:50:2B",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 16,
+                                "interconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "mac": "AC:16:2D:AB:50:2C",
+                                "physicalInterconnectPort": 16,
+                                "physicalInterconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:50:2C",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:50:2D",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:AC:16:2D:AB:50:2D",
+                                        "wwpn": "10:00:AC:16:2D:AB:50:2D"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:50:2E",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:50:2F",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 1
+                    },
+                    {
+                        "deviceName": "HP FlexFabric 10Gb 2-port 554FLB Adapter",
+                        "deviceNumber": 10,
+                        "location": "Flb",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 8,
+                                "interconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "mac": "AC:16:2D:AB:20:10",
+                                "physicalInterconnectPort": 8,
+                                "physicalInterconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:20:10",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:20:11",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:AC:16:2D:AB:20:11",
+                                        "wwpn": "10:00:AC:16:2D:AB:20:11"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:20:12",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:20:13",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 8,
+                                "interconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "mac": "AC:16:2D:AB:20:14",
+                                "physicalInterconnectPort": 8,
+                                "physicalInterconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:20:14",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:20:15",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:AC:16:2D:AB:20:15",
+                                        "wwpn": "10:00:AC:16:2D:AB:20:15"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:20:16",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "AC:16:2D:AB:20:17",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 2
+                    },
+                    {
+                        "deviceName": "",
+                        "deviceNumber": 1,
+                        "location": "Mezz",
+                        "physicalPorts": [],
+                        "slotNumber": 1
+                    },
+                    {
+                        "deviceName": "",
+                        "deviceNumber": 2,
+                        "location": "Mezz",
+                        "physicalPorts": [],
+                        "slotNumber": 2
+                    },
+                    {
+                        "deviceName": "",
+                        "deviceNumber": 3,
+                        "location": "Mezz",
+                        "physicalPorts": [],
+                        "slotNumber": 3
+                    }
+                ]
+            },
+            "position": 8,
+            "powerLock": false,
+            "powerState": "On",
+            "processorCoreCount": 8,
+            "processorCount": 4,
+            "processorSpeedMhz": 2600,
+            "processorType": "Intel(R) Xeon(R) CPU E5-4650L 0 @ 2.60GHz",
+            "refreshState": "NotRefreshing",
+            "romVersion": "I32 11/02/2014",
+            "serialNumber": "TWT22100VJ",
+            "serverGroupUri": "/rest/enclosure-groups/3480212b-09ce-4cb8-95d7-23e33733bd98",
+            "serverHardwareTypeUri": "/rest/server-hardware-types/14C56012-1FD8-415C-B396-E1965479FC60",
+            "serverProfileUri": null,
+            "serverSettings": {
+                "firmwareAndDriversInstallState": {
+                    "installedStateTimestamp": null,
+                    "installState": null
+                },
+                "hpSmartUpdateToolStatus": {
+                    "mode": null,
+                    "version": null,
+                    "serviceState": null,
+                    "installState": null,
+                    "lastOperationTime": null
+                }
+            },
+            "shortModel": "BL660c Gen8",
+            "signature": {
+                "personalityChecksum": -289978735,
+                "serverHwChecksum": -2020771555
+            },
+            "status": "OK",
+            "uidState": "Unsupported",
+            "uri": "/rest/server-hardware/31393736-3431-5754-5432-32313030564A",
+            "uuid": "31393736-3431-5754-5432-32313030564A",
+            "virtualSerialNumber": "",
+            "virtualUuid": null
+        },
+        {
+            "type": "server-hardware-4",
+            "name": "C7000-03-Enclosure, bay 7",
+            "state": "NoProfileApplied",
+            "stateReason": "NotApplicable",
+            "assetTag": "[Unknown]",
+            "category": "server-hardware",
+            "created": "2016-02-18T06:07:12.433Z",
+            "description": null,
+            "eTag": "1456508905307",
+            "formFactor": "FullHeight",
+            "intelligentProvisioningVersion": "1.30.113",
+            "licensingIntent": "OneViewNoiLO",
+            "locationUri": "/rest/enclosures/092S1421PC06",
+            "memoryMb": 131072,
+            "model": "ProLiant BL660c Gen8",
+            "modified": "2016-02-26T17:48:25.307Z",
+            "mpFirmwareVersion": "2.10 Jan 15 2015",
+            "mpHostInfo": {
+                "mpHostName": "eusbs0002b03",
+                "mpIpAddresses": [
+                    {
+                        "address": "10.16.40.147",
+                        "type": "Undefined"
+                    }
+                ]
+            },
+            "mpModel": "iLO4",
+            "mpState": "OK",
+            "partNumber": "679116-B21",
+            "portMap": {
+                "deviceSlots": [
+                    {
+                        "deviceName": "HP FlexFabric 10Gb 2-port 554FLB Adapter",
+                        "deviceNumber": 9,
+                        "location": "Flb",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 15,
+                                "interconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "mac": "6C:3B:E5:A4:B0:40",
+                                "physicalInterconnectPort": 15,
+                                "physicalInterconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:B0:40",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:B0:41",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:6C:3B:E5:A4:B0:41",
+                                        "wwpn": "10:00:6C:3B:E5:A4:B0:41"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:B0:42",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:B0:43",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 15,
+                                "interconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "mac": "6C:3B:E5:A4:B0:44",
+                                "physicalInterconnectPort": 15,
+                                "physicalInterconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:B0:44",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:B0:45",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:6C:3B:E5:A4:B0:45",
+                                        "wwpn": "10:00:6C:3B:E5:A4:B0:45"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:B0:46",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:B0:47",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 1
+                    },
+                    {
+                        "deviceName": "HP FlexFabric 10Gb 2-port 554FLB Adapter",
+                        "deviceNumber": 10,
+                        "location": "Flb",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 7,
+                                "interconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "mac": "6C:3B:E5:A4:E3:D0",
+                                "physicalInterconnectPort": 7,
+                                "physicalInterconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:E3:D0",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:E3:D1",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:6C:3B:E5:A4:E3:D1",
+                                        "wwpn": "10:00:6C:3B:E5:A4:E3:D1"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:E3:D2",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:E3:D3",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 7,
+                                "interconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "mac": "6C:3B:E5:A4:E3:D4",
+                                "physicalInterconnectPort": 7,
+                                "physicalInterconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:E3:D4",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:E3:D5",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:6C:3B:E5:A4:E3:D5",
+                                        "wwpn": "10:00:6C:3B:E5:A4:E3:D5"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:E3:D6",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "6C:3B:E5:A4:E3:D7",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 2
+                    },
+                    {
+                        "deviceName": "",
+                        "deviceNumber": 1,
+                        "location": "Mezz",
+                        "physicalPorts": [],
+                        "slotNumber": 1
+                    },
+                    {
+                        "deviceName": "",
+                        "deviceNumber": 2,
+                        "location": "Mezz",
+                        "physicalPorts": [],
+                        "slotNumber": 2
+                    },
+                    {
+                        "deviceName": "",
+                        "deviceNumber": 3,
+                        "location": "Mezz",
+                        "physicalPorts": [],
+                        "slotNumber": 3
+                    }
+                ]
+            },
+            "position": 7,
+            "powerLock": false,
+            "powerState": "On",
+            "processorCoreCount": 6,
+            "processorCount": 4,
+            "processorSpeedMhz": 2900,
+            "processorType": "Intel(R) Xeon(R) CPU E5-4617 0 @ 2.90GHz",
+            "refreshState": "NotRefreshing",
+            "romVersion": "I32 11/02/2014",
+            "serialNumber": "MXQ30301FR",
+            "serverGroupUri": "/rest/enclosure-groups/3480212b-09ce-4cb8-95d7-23e33733bd98",
+            "serverHardwareTypeUri": "/rest/server-hardware-types/14C56012-1FD8-415C-B396-E1965479FC60",
+            "serverProfileUri": null,
+            "serverSettings": {
+                "firmwareAndDriversInstallState": {
+                    "installedStateTimestamp": null,
+                    "installState": null
+                },
+                "hpSmartUpdateToolStatus": {
+                    "mode": null,
+                    "version": null,
+                    "serviceState": null,
+                    "installState": null,
+                    "lastOperationTime": null
+                }
+            },
+            "shortModel": "BL660c Gen8",
+            "signature": {
+                "personalityChecksum": -289978735,
+                "serverHwChecksum": -1706448520
+            },
+            "status": "OK",
+            "uidState": "Unsupported",
+            "uri": "/rest/server-hardware/31393736-3631-584D-5133-303330314652",
+            "uuid": "31393736-3631-584D-5133-303330314652",
+            "virtualSerialNumber": "",
+            "virtualUuid": null
+        },
+        {
+            "type": "server-hardware-4",
+            "name": "C7000-03-Enclosure, bay 5",
+            "state": "ProfileApplied",
+            "stateReason": "NotApplicable",
+            "assetTag": "[Unknown]",
+            "category": "server-hardware",
+            "created": "2016-02-18T06:07:16.304Z",
+            "description": null,
+            "eTag": "1455835941554",
+            "formFactor": "HalfHeight",
+            "intelligentProvisioningVersion": "Unknown",
+            "licensingIntent": "OneView",
+            "locationUri": "/rest/enclosures/092S1421PC06",
+            "memoryMb": 131072,
+            "model": "ProLiant BL460c Gen9",
+            "modified": "2016-02-18T22:52:21.554Z",
+            "mpFirmwareVersion": "2.20 May 20 2015",
+            "mpHostInfo": {
+                "mpHostName": "ILOUSE526SP4H",
+                "mpIpAddresses": [
+                    {
+                        "address": "10.16.40.145",
+                        "type": "Undefined"
+                    }
+                ]
+            },
+            "mpModel": "iLO4",
+            "mpState": "OK",
+            "partNumber": "727021-B21",
+            "portMap": {
+                "deviceSlots": [
+                    {
+                        "deviceName": "HP FlexFabric 20Gb 2-port 650FLB Adapter",
+                        "deviceNumber": 9,
+                        "location": "Flb",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 5,
+                                "interconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "mac": "5C:B9:01:78:36:20",
+                                "physicalInterconnectPort": 5,
+                                "physicalInterconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "46:18:9C:B0:00:02",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:21",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:5C:B9:01:78:36:21",
+                                        "wwpn": "10:00:5C:B9:01:78:36:21"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:22",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:23",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:24",
+                                        "portFunction": null,
+                                        "portNumber": 5,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:25",
+                                        "portFunction": null,
+                                        "portNumber": 6,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:26",
+                                        "portFunction": null,
+                                        "portNumber": 7,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:27",
+                                        "portFunction": null,
+                                        "portNumber": 8,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 5,
+                                "interconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "mac": "5C:B9:01:78:36:28",
+                                "physicalInterconnectPort": 5,
+                                "physicalInterconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:28",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:29",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:5C:B9:01:78:36:29",
+                                        "wwpn": "10:00:5C:B9:01:78:36:29"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:2A",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:2B",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:2C",
+                                        "portFunction": null,
+                                        "portNumber": 5,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:2D",
+                                        "portFunction": null,
+                                        "portNumber": 6,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:2E",
+                                        "portFunction": null,
+                                        "portNumber": 7,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:36:2F",
+                                        "portFunction": null,
+                                        "portNumber": 8,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 1
+                    },
+                    {
+                        "deviceName": "HP FlexFabric 20Gb 2-port 650M Adapter",
+                        "deviceNumber": 1,
+                        "location": "Mezz",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 5,
+                                "interconnectUri": "/rest/interconnects/9b56ef72-d853-4f3a-80ac-d06e86421636",
+                                "mac": "5C:B9:01:78:09:90",
+                                "physicalInterconnectPort": 5,
+                                "physicalInterconnectUri": "/rest/interconnects/9b56ef72-d853-4f3a-80ac-d06e86421636",
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:90",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:91",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:5C:B9:01:78:09:91",
+                                        "wwpn": "10:00:5C:B9:01:78:09:91"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:92",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:93",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:94",
+                                        "portFunction": null,
+                                        "portNumber": 5,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:95",
+                                        "portFunction": null,
+                                        "portNumber": 6,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:96",
+                                        "portFunction": null,
+                                        "portNumber": 7,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:97",
+                                        "portFunction": null,
+                                        "portNumber": 8,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 5,
+                                "interconnectUri": "/rest/interconnects/cd2ce102-f37e-4835-9298-58958af75b3c",
+                                "mac": "5C:B9:01:78:09:98",
+                                "physicalInterconnectPort": 5,
+                                "physicalInterconnectUri": "/rest/interconnects/cd2ce102-f37e-4835-9298-58958af75b3c",
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:98",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:99",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:5C:B9:01:78:09:99",
+                                        "wwpn": "10:00:5C:B9:01:78:09:99"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:9A",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:9B",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:9C",
+                                        "portFunction": null,
+                                        "portNumber": 5,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:9D",
+                                        "portFunction": null,
+                                        "portNumber": 6,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:9E",
+                                        "portFunction": null,
+                                        "portNumber": 7,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:09:9F",
+                                        "portFunction": null,
+                                        "portNumber": 8,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 1
+                    },
+                    {
+                        "deviceName": "HP FlexFabric 10Gb 2-port 534M Adapter",
+                        "deviceNumber": 2,
+                        "location": "Mezz",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 0,
+                                "interconnectUri": null,
+                                "mac": "D8:9D:67:21:F1:28",
+                                "physicalInterconnectPort": 0,
+                                "physicalInterconnectUri": null,
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "D8:9D:67:21:F1:28",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "D8:9D:67:21:F1:29",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "10:00:D8:9D:67:21:F1:29",
+                                        "wwpn": "20:00:D8:9D:67:21:F1:29"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "D8:9D:67:21:F1:2A",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "D8:9D:67:21:F1:2B",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 0,
+                                "interconnectUri": null,
+                                "mac": "D8:9D:67:21:F1:2C",
+                                "physicalInterconnectPort": 0,
+                                "physicalInterconnectUri": null,
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "D8:9D:67:21:F1:2C",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "D8:9D:67:21:F1:2D",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "10:00:D8:9D:67:21:F1:2D",
+                                        "wwpn": "20:00:D8:9D:67:21:F1:2D"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "D8:9D:67:21:F1:2E",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "D8:9D:67:21:F1:2F",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 2
+                    }
+                ]
+            },
+            "position": 5,
+            "powerLock": false,
+            "powerState": "On",
+            "processorCoreCount": 10,
+            "processorCount": 2,
+            "processorSpeedMhz": 2300,
+            "processorType": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
+            "refreshState": "NotRefreshing",
+            "romVersion": "I36 05/06/2015",
+            "serialNumber": "USE526SP4H",
+            "serverGroupUri": "/rest/enclosure-groups/3480212b-09ce-4cb8-95d7-23e33733bd98",
+            "serverHardwareTypeUri": "/rest/server-hardware-types/E2B56602-BE22-4CD3-86FD-A55D720E611A",
+            "serverProfileUri": "/rest/server-profiles/bf5778c3-3739-49a5-9d7e-9e4aa98418bf",
+            "serverSettings": {
+                "firmwareAndDriversInstallState": {
+                    "installedStateTimestamp": null,
+                    "installState": null
+                },
+                "hpSmartUpdateToolStatus": {
+                    "mode": null,
+                    "version": null,
+                    "serviceState": null,
+                    "installState": null,
+                    "lastOperationTime": null
+                }
+            },
+            "shortModel": "BL460c Gen9",
+            "signature": {
+                "personalityChecksum": -601662639,
+                "serverHwChecksum": 971591621
+            },
+            "status": "OK",
+            "uidState": "Unsupported",
+            "uri": "/rest/server-hardware/30373237-3132-5355-4535-323653503448",
+            "uuid": "30373237-3132-5355-4535-323653503448",
+            "virtualSerialNumber": "VCG5AQ7002",
+            "virtualUuid": "bf5778c3-3739-49a5-9d7e-9e4aa98418bf"
+        },
+        {
+            "type": "server-hardware-4",
+            "name": "C7000-03-Enclosure, bay 1",
+            "state": "ProfileApplied",
+            "stateReason": "NotApplicable",
+            "assetTag": "[Unknown]",
+            "category": "server-hardware",
+            "created": "2016-02-24T21:09:38.137Z",
+            "description": null,
+            "eTag": "1456351467014",
+            "formFactor": "HalfHeight",
+            "intelligentProvisioningVersion": "Unknown",
+            "licensingIntent": "OneView",
+            "locationUri": "/rest/enclosures/092S1421PC06",
+            "memoryMb": 131072,
+            "model": "ProLiant BL460c Gen9",
+            "modified": "2016-02-24T22:04:27.014Z",
+            "mpFirmwareVersion": "2.20 May 20 2015",
+            "mpHostInfo": {
+                "mpHostName": "ILOUSE526SP4D",
+                "mpIpAddresses": [
+                    {
+                        "address": "10.16.40.141",
+                        "type": "Undefined"
+                    }
+                ]
+            },
+            "mpModel": "iLO4",
+            "mpState": "OK",
+            "partNumber": "727021-B21",
+            "portMap": {
+                "deviceSlots": [
+                    {
+                        "deviceName": "HP FlexFabric 20Gb 2-port 650FLB Adapter",
+                        "deviceNumber": 9,
+                        "location": "Flb",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 1,
+                                "interconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "mac": "5C:B9:01:78:E5:88",
+                                "physicalInterconnectPort": 1,
+                                "physicalInterconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "46:18:9C:B0:00:00",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:89",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:5C:B9:01:78:E5:89",
+                                        "wwpn": "10:00:5C:B9:01:78:E5:89"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:8A",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:8B",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:8C",
+                                        "portFunction": null,
+                                        "portNumber": 5,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:8D",
+                                        "portFunction": null,
+                                        "portNumber": 6,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:8E",
+                                        "portFunction": null,
+                                        "portNumber": 7,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:8F",
+                                        "portFunction": null,
+                                        "portNumber": 8,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 1,
+                                "interconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "mac": "5C:B9:01:78:E5:90",
+                                "physicalInterconnectPort": 1,
+                                "physicalInterconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:90",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:91",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:5C:B9:01:78:E5:91",
+                                        "wwpn": "10:00:5C:B9:01:78:E5:91"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:92",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:93",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:94",
+                                        "portFunction": null,
+                                        "portNumber": 5,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:95",
+                                        "portFunction": null,
+                                        "portNumber": 6,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:96",
+                                        "portFunction": null,
+                                        "portNumber": 7,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E5:97",
+                                        "portFunction": null,
+                                        "portNumber": 8,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 1
+                    },
+                    {
+                        "deviceName": "HP FlexFabric 20Gb 2-port 650M Adapter",
+                        "deviceNumber": 1,
+                        "location": "Mezz",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 1,
+                                "interconnectUri": "/rest/interconnects/9b56ef72-d853-4f3a-80ac-d06e86421636",
+                                "mac": "5C:B9:01:78:E8:80",
+                                "physicalInterconnectPort": 1,
+                                "physicalInterconnectUri": "/rest/interconnects/9b56ef72-d853-4f3a-80ac-d06e86421636",
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:80",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:81",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:5C:B9:01:78:E8:81",
+                                        "wwpn": "10:00:5C:B9:01:78:E8:81"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:82",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:83",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:84",
+                                        "portFunction": null,
+                                        "portNumber": 5,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:85",
+                                        "portFunction": null,
+                                        "portNumber": 6,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:86",
+                                        "portFunction": null,
+                                        "portNumber": 7,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:87",
+                                        "portFunction": null,
+                                        "portNumber": 8,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 1,
+                                "interconnectUri": "/rest/interconnects/cd2ce102-f37e-4835-9298-58958af75b3c",
+                                "mac": "5C:B9:01:78:E8:88",
+                                "physicalInterconnectPort": 1,
+                                "physicalInterconnectUri": "/rest/interconnects/cd2ce102-f37e-4835-9298-58958af75b3c",
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:88",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:89",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:5C:B9:01:78:E8:89",
+                                        "wwpn": "10:00:5C:B9:01:78:E8:89"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:8A",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:8B",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:8C",
+                                        "portFunction": null,
+                                        "portNumber": 5,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:8D",
+                                        "portFunction": null,
+                                        "portNumber": 6,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:8E",
+                                        "portFunction": null,
+                                        "portNumber": 7,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:E8:8F",
+                                        "portFunction": null,
+                                        "portNumber": 8,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 1
+                    },
+                    {
+                        "deviceName": "HP FlexFabric 10Gb 2-port 534M Adapter",
+                        "deviceNumber": 2,
+                        "location": "Mezz",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 0,
+                                "interconnectUri": null,
+                                "mac": "2C:44:FD:8D:1F:40",
+                                "physicalInterconnectPort": 0,
+                                "physicalInterconnectUri": null,
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:1F:40",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:1F:41",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "10:00:2C:44:FD:8D:1F:41",
+                                        "wwpn": "20:00:2C:44:FD:8D:1F:41"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:1F:42",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:1F:43",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 0,
+                                "interconnectUri": null,
+                                "mac": "2C:44:FD:8D:1F:44",
+                                "physicalInterconnectPort": 0,
+                                "physicalInterconnectUri": null,
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:1F:44",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:1F:45",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "10:00:2C:44:FD:8D:1F:45",
+                                        "wwpn": "20:00:2C:44:FD:8D:1F:45"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:1F:46",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:1F:47",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 2
+                    }
+                ]
+            },
+            "position": 1,
+            "powerLock": false,
+            "powerState": "On",
+            "processorCoreCount": 10,
+            "processorCount": 2,
+            "processorSpeedMhz": 2300,
+            "processorType": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
+            "refreshState": "NotRefreshing",
+            "romVersion": "I36 05/06/2015",
+            "serialNumber": "USE526SP4D",
+            "serverGroupUri": "/rest/enclosure-groups/3480212b-09ce-4cb8-95d7-23e33733bd98",
+            "serverHardwareTypeUri": "/rest/server-hardware-types/E2B56602-BE22-4CD3-86FD-A55D720E611A",
+            "serverProfileUri": "/rest/server-profiles/28499d8c-dcde-4fe6-87a7-1bbda5eccfed",
+            "serverSettings": {
+                "firmwareAndDriversInstallState": {
+                    "installedStateTimestamp": null,
+                    "installState": null
+                },
+                "hpSmartUpdateToolStatus": {
+                    "mode": null,
+                    "version": null,
+                    "serviceState": null,
+                    "installState": null,
+                    "lastOperationTime": null
+                }
+            },
+            "shortModel": "BL460c Gen9",
+            "signature": {
+                "personalityChecksum": 631820447,
+                "serverHwChecksum": -506904111
+            },
+            "status": "OK",
+            "uidState": "Unsupported",
+            "uri": "/rest/server-hardware/30373237-3132-5355-4535-323653503444",
+            "uuid": "30373237-3132-5355-4535-323653503444",
+            "virtualSerialNumber": "VCG5AQ7000",
+            "virtualUuid": "28499d8c-dcde-4fe6-87a7-1bbda5eccfed"
+        },
+        {
+            "type": "server-hardware-4",
+            "name": "C7000-03-Enclosure, bay 3",
+            "state": "ProfileApplied",
+            "stateReason": "NotApplicable",
+            "assetTag": "[Unknown]",
+            "category": "server-hardware",
+            "created": "2016-02-24T23:13:22.805Z",
+            "description": null,
+            "eTag": "1456534938370",
+            "formFactor": "HalfHeight",
+            "intelligentProvisioningVersion": "2.20.219",
+            "licensingIntent": "OneView",
+            "locationUri": "/rest/enclosures/092S1421PC06",
+            "memoryMb": 131072,
+            "model": "ProLiant BL460c Gen9",
+            "modified": "2016-02-27T01:02:18.370Z",
+            "mpFirmwareVersion": "2.20 May 20 2015",
+            "mpHostInfo": {
+                "mpHostName": "ILOUSE526SP4F",
+                "mpIpAddresses": [
+                    {
+                        "address": "10.16.40.143",
+                        "type": "Undefined"
+                    }
+                ]
+            },
+            "mpModel": "iLO4",
+            "mpState": "OK",
+            "partNumber": "727021-B21",
+            "portMap": {
+                "deviceSlots": [
+                    {
+                        "deviceName": "HP FlexFabric 20Gb 2-port 650FLB Adapter",
+                        "deviceNumber": 9,
+                        "location": "Flb",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 3,
+                                "interconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "mac": "5C:B9:01:78:26:08",
+                                "physicalInterconnectPort": 3,
+                                "physicalInterconnectUri": "/rest/interconnects/42edb301-9ac8-4c4e-b769-161573ac1804",
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "46:18:9C:B0:00:0B",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:09",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:5C:B9:01:78:26:09",
+                                        "wwpn": "10:00:5C:B9:01:78:26:09"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:0A",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:0B",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:0C",
+                                        "portFunction": null,
+                                        "portNumber": 5,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:0D",
+                                        "portFunction": null,
+                                        "portNumber": 6,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:0E",
+                                        "portFunction": null,
+                                        "portNumber": 7,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:0F",
+                                        "portFunction": null,
+                                        "portNumber": 8,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 3,
+                                "interconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "mac": "5C:B9:01:78:26:10",
+                                "physicalInterconnectPort": 3,
+                                "physicalInterconnectUri": "/rest/interconnects/a8dd9997-db5c-499d-84bb-8f5925f33f0a",
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:10",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:11",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:5C:B9:01:78:26:11",
+                                        "wwpn": "10:00:5C:B9:01:78:26:11"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:12",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:13",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:14",
+                                        "portFunction": null,
+                                        "portNumber": 5,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:15",
+                                        "portFunction": null,
+                                        "portNumber": 6,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:16",
+                                        "portFunction": null,
+                                        "portNumber": 7,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:26:17",
+                                        "portFunction": null,
+                                        "portNumber": 8,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 1
+                    },
+                    {
+                        "deviceName": "HP FlexFabric 20Gb 2-port 650M Adapter",
+                        "deviceNumber": 1,
+                        "location": "Mezz",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 3,
+                                "interconnectUri": "/rest/interconnects/9b56ef72-d853-4f3a-80ac-d06e86421636",
+                                "mac": "5C:B9:01:78:F8:50",
+                                "physicalInterconnectPort": 3,
+                                "physicalInterconnectUri": "/rest/interconnects/9b56ef72-d853-4f3a-80ac-d06e86421636",
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:50",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:51",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:5C:B9:01:78:F8:51",
+                                        "wwpn": "10:00:5C:B9:01:78:F8:51"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:52",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:53",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:54",
+                                        "portFunction": null,
+                                        "portNumber": 5,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:55",
+                                        "portFunction": null,
+                                        "portNumber": 6,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:56",
+                                        "portFunction": null,
+                                        "portNumber": 7,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:57",
+                                        "portFunction": null,
+                                        "portNumber": 8,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 3,
+                                "interconnectUri": "/rest/interconnects/cd2ce102-f37e-4835-9298-58958af75b3c",
+                                "mac": "5C:B9:01:78:F8:58",
+                                "physicalInterconnectPort": 3,
+                                "physicalInterconnectUri": "/rest/interconnects/cd2ce102-f37e-4835-9298-58958af75b3c",
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:58",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:59",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "20:00:5C:B9:01:78:F8:59",
+                                        "wwpn": "10:00:5C:B9:01:78:F8:59"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:5A",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:5B",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:5C",
+                                        "portFunction": null,
+                                        "portNumber": 5,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:5D",
+                                        "portFunction": null,
+                                        "portNumber": 6,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:5E",
+                                        "portFunction": null,
+                                        "portNumber": 7,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "5C:B9:01:78:F8:5F",
+                                        "portFunction": null,
+                                        "portNumber": 8,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 1
+                    },
+                    {
+                        "deviceName": "HP FlexFabric 10Gb 2-port 534M Adapter",
+                        "deviceNumber": 2,
+                        "location": "Mezz",
+                        "physicalPorts": [
+                            {
+                                "interconnectPort": 0,
+                                "interconnectUri": null,
+                                "mac": "2C:44:FD:8D:3A:60",
+                                "physicalInterconnectPort": 0,
+                                "physicalInterconnectUri": null,
+                                "portNumber": 1,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:3A:60",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:3A:61",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "10:00:2C:44:FD:8D:3A:61",
+                                        "wwpn": "20:00:2C:44:FD:8D:3A:61"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:3A:62",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:3A:63",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            },
+                            {
+                                "interconnectPort": 0,
+                                "interconnectUri": null,
+                                "mac": "2C:44:FD:8D:3A:64",
+                                "physicalInterconnectPort": 0,
+                                "physicalInterconnectUri": null,
+                                "portNumber": 2,
+                                "type": "Ethernet",
+                                "virtualPorts": [
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:3A:64",
+                                        "portFunction": "a",
+                                        "portNumber": 1,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:3A:65",
+                                        "portFunction": "b",
+                                        "portNumber": 2,
+                                        "wwnn": "10:00:2C:44:FD:8D:3A:65",
+                                        "wwpn": "20:00:2C:44:FD:8D:3A:65"
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:3A:66",
+                                        "portFunction": "c",
+                                        "portNumber": 3,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    },
+                                    {
+                                        "currentAllocatedVirtualFunctionCount": -1,
+                                        "mac": "2C:44:FD:8D:3A:67",
+                                        "portFunction": "d",
+                                        "portNumber": 4,
+                                        "wwnn": null,
+                                        "wwpn": null
+                                    }
+                                ],
+                                "wwn": null
+                            }
+                        ],
+                        "slotNumber": 2
+                    }
+                ]
+            },
+            "position": 3,
+            "powerLock": false,
+            "powerState": "On",
+            "processorCoreCount": 10,
+            "processorCount": 2,
+            "processorSpeedMhz": 2300,
+            "processorType": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
+            "refreshState": "NotRefreshing",
+            "romVersion": "I36 05/06/2015",
+            "serialNumber": "USE526SP4F",
+            "serverGroupUri": "/rest/enclosure-groups/3480212b-09ce-4cb8-95d7-23e33733bd98",
+            "serverHardwareTypeUri": "/rest/server-hardware-types/E2B56602-BE22-4CD3-86FD-A55D720E611A",
+            "serverProfileUri": "/rest/server-profiles/1617016b-cdda-4dbb-a6de-bb80ff92b393",
+            "serverSettings": {
+                "firmwareAndDriversInstallState": {
+                    "installedStateTimestamp": null,
+                    "installState": null
+                },
+                "hpSmartUpdateToolStatus": {
+                    "mode": null,
+                    "version": null,
+                    "serviceState": null,
+                    "installState": null,
+                    "lastOperationTime": null
+                }
+            },
+            "shortModel": "BL460c Gen9",
+            "signature": {
+                "personalityChecksum": -1608639616,
+                "serverHwChecksum": -856723414
+            },
+            "status": "OK",
+            "uidState": "Unsupported",
+            "uri": "/rest/server-hardware/30373237-3132-5355-4535-323653503446",
+            "uuid": "30373237-3132-5355-4535-323653503446",
+            "virtualSerialNumber": "VCG5AQ700B",
+            "virtualUuid": "1617016b-cdda-4dbb-a6de-bb80ff92b393"
+        }
+    ],
+    "modified": "2016-03-01T20:13:46.472Z",
+    "nextPageUri": null,
+    "prevPageUri": null,
+    "start": 0,
+    "total": 5,
+    "uri": "/rest/server-hardware?start=0&count=32"
+}

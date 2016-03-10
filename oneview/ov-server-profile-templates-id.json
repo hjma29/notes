@@ -1,0 +1,63 @@
+{
+    "type": "ServerProfileTemplateV1",
+    "uri": "/rest/server-profile-templates/c80e083d-d304-4515-bd5c-628933dfaa80",
+    "name": "ProfileTemplate101",
+    "description": "",
+    "serverProfileDescription": "",
+    "serverHardwareTypeUri": "/rest/server-hardware-types/E2B56602-BE22-4CD3-86FD-A55D720E611A",
+    "enclosureGroupUri": "/rest/enclosure-groups/3480212b-09ce-4cb8-95d7-23e33733bd98",
+    "affinity": "Bay",
+    "hideUnusedFlexNics": true,
+    "macType": "Virtual",
+    "wwnType": "Virtual",
+    "serialNumberType": "Virtual",
+    "firmware": {
+        "manageFirmware": false,
+        "firmwareInstallType": null,
+        "forceInstallFirmware": false,
+        "firmwareBaselineUri": null
+    },
+    "connections": [],
+    "bootMode": {
+        "manageMode": false,
+        "mode": null,
+        "pxeBootPolicy": null
+    },
+    "boot": {
+        "manageBoot": false,
+        "order": []
+    },
+    "bios": {
+        "manageBios": false,
+        "overriddenSettings": []
+    },
+    "localStorage": {
+        "controllers": [
+            {
+                "slotNumber": "0",
+                "managed": true,
+                "mode": "RAID",
+                "initialize": true,
+                "logicalDrives": [
+                    {
+                        "raidLevel": "RAID1",
+                        "bootable": false,
+                        "driveName": "logical-drive-1",
+                        "numPhysicalDrives": 2,
+                        "driveTechnology": null
+                    }
+                ]
+            }
+        ]
+    },
+    "sanStorage": {
+        "manageSanStorage": false,
+        "volumeAttachments": []
+    },
+    "category": "server-profile-templates",
+    "created": "2016-03-03T00:43:37.079Z",
+    "modified": "2016-03-03T01:42:09.271Z",
+    "status": "OK",
+    "state": null,
+    "eTag": "1456969329271/1"
+}
